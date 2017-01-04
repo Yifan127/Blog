@@ -39,10 +39,10 @@
   raw\_input\(\) was renamed to input\(\).
   ```
 
-References:
+###### References:
 
-1. https://wiki.python.org/moin/Python2orPython3
-2. https://docs.python.org/3/whatsnew/3.0.html\#porting-to-python-3-0
+1. [https://wiki.python.org/moin/Python2orPython3](https://wiki.python.org/moin/Python2orPython3)
+2. [https://docs.python.org/3/whatsnew/3.0.html\\#porting-to-python-3-0](https://docs.python.org/3/whatsnew/3.0.html\#porting-to-python-3-0)
 3. Python 3.6.0 documentation
 
 
