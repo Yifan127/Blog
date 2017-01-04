@@ -24,7 +24,15 @@
 
   ```
   A: Use 2to3.py in ./Toos/scripts folder.
-  For example: $ py C:\Users\Yifan\AppData\Local\Programs\Python\Python36-32\Tools\scripts ex1.py
+  For example: 
+  $ py C:\Python\Python36-32\Tools\scripts\2to3.py ex1.py
+  A diff against original source file will be printed.
+ 
+  $ py C:\Python\Python36-32\Tools\scripts\2to3.py -w ex1.py
+  The modification will write to the source file, and a backup of the original file is made.
+
+  $ py C:\Python\Python36-32\Tools\scripts\2to3.py -w -n ex1.py
+  The modification will write to the source file, and no backup file.
   ```
 
 * **Q: What's different between version 2 and version 3?**
