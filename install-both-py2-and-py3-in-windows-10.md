@@ -8,7 +8,6 @@
 
   ```
   A: Use Python Launcher for Windows! 
-
     For command line: type py to launch Python3, and py -2.7 to launch Python2.7, I can also use py -2 to launch 
     the latest version2.x I have installed.
   ```
@@ -18,23 +17,20 @@
 * **Q: I have some Python2 scripts, how I can convert them to Python3?**
 
   ```
-    A: Use 2to3.py in ./Toos/scripts folder.
-
-         For example: $ py C:\Users\Yifan\AppData\Local\Programs\Python\Python36-32\Tools\scripts ex1.py
+  A: Use 2to3.py in ./Toos/scripts folder.
+  For example: $ py C:\Users\Yifan\AppData\Local\Programs\Python\Python36-32\Tools\scripts ex1.py
   ```
 
 * **Q: What's different between version 2 and version 3?**
 
   ```
-    A: So far, I have found 2 differences:
+  A: So far, I have found 2 differences:
 
-         print\(\) is a function in Python3.
+  print\(\) is a function in Python3.
+  In Python2: print "Hello World!"
+  In Python3: print \("Hello World!"\)
 
-         In Python2: print "Hello World!"
-
-         In Python3: print \("Hello World!"\)
-
-         raw\_input\(\) was renamed to input\(\).
+  raw\_input\(\) was renamed to input\(\).
   ```
 
 
