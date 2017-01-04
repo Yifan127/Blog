@@ -8,8 +8,14 @@
 
   ```
   A: Use Python Launcher for Windows! 
-    For command line: type py to launch Python3, and py -2.7 to launch Python2.7, I can also use py -2 to launch 
-    the latest version2.x I have installed.
+    For command line: type py to launch Python3, and py -2.7 to launch Python2.7, I can also use py -2 to 
+    launch the latest version2.x I have installed.
+  
+    Specify version in scripts: 
+    #! python: means version2
+    #! python3: means version3
+    Also, I can specify a more explicit version:
+    #! python2.7
   ```
 
 ![](/assets/setup_0.png)
