@@ -44,10 +44,10 @@
 
 |Difference|Python2|Python3|
 | :---- | :-------- |:--------|
-|Print|print "Hello world!" print "Hello world!", | print\("Hello world!"\) print \("Hello world!", end\(" "\)\) |
-|input|raw\_input\(\) | input\(\) |
-|integer division|1/2, returns 0 | 1/2, returns 0.5|
-|format|"My name is %s" %"Yifan" | "My name is {0}".format\('Yifan'\) |
+|**Print**|print "Hello world!"<br>print "Hello world!", | print\("Hello world!"\)<br>print \("Hello world!", end\(" "\)\) |
+|**input**|raw\_input\(\) | input\(\) |
+|**integer division**|1/2, returns 0 | 1/2, returns 0.5|
+|**format**|"My name is %s" %"Yifan" | "My name is {0}".format\('Yifan'\) |
 
 ###### Terms:
 
