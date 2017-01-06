@@ -3,7 +3,6 @@
 * **Basic formatting**
 
 <pre><code>
- 
   #old
   print(('%s %s') %('one','two'))
   #new
