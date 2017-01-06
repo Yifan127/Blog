@@ -1,4 +1,4 @@
-Lession 1: Python2 vs. Python3
+### Python2 vs. Python3
 
 * **Q: Can I install both Python2 and Python3?**
 
