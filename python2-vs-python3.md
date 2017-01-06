@@ -31,16 +31,16 @@
   A diff against the original source file will be printed.
 
   $ py C:\Python\Python36-32\Tools\scripts\2to3.py -w ex1.py
-  -w: Write the modification to a new file, and a backup of the original file is made.
+  **-w**: Write the modification to a new file, and a backup of the original file is made.
 
   $ py C:\Python\Python36-32\Tools\scripts\2to3.py -w -n ex1.py
-  -w -n: Write the modification to a new file, without backup of the original file.
+  **-w -n**: Write the modification to a new file, without backup of the original file.
 
   $ py C:\Python\Python36-32\Tools\scripts\2to3.py -o ToPython3Project -W -n Python2Project 
   Convert the whole directory 'Python2Project' to python3, save to 'ToPython3Project'.
-  -o: specify the directory to save the output python3 files.
-  -n is required when using -o, because backup files do not make sense when not overwriting the original files.
-  -W: convert the file even if there's no change.
+  **-o**: specify the directory to save the output python3 files.
+  **-n** is required when using -o, because backup files do not make sense when not overwriting the original files.
+  **-W**: convert the file even if there's no change.
   ```
 
 * **Q: What's different between version 2 and version 3?**
