@@ -45,11 +45,11 @@
 
 * **Q: What's different between version 2 and version 3?**
 
-  | Difference | Python2 | Python3 |
+  |Difference | Python2 | Python3 |
   | :--- | :--- | :--- |
-  | **print**| print "Hello world!"<br>print "Hello world!", | print\("Hello world!"\)<br>print \("Hello world!", end\(" "\)\) |
+  | **print**| print "Hello world!"<br>print "Hello world!",     | print\("Hello world!"\)<br>print \("Hello world!", end\(" "\)\) |
   | **input**| raw\_input\(\) | input\(\) |
-  | **integer division** | 1/2, returns 0 | 1/2, returns 0.5 |
+  | **integer division** | 1/2, returns 0 | 1/2, returns 0.5|
   | **format**| "My name is %s" %"Yifan" | "My name is {0}".format\('Yifan'\) |
 
 ###### Terms:
