@@ -20,7 +20,7 @@ Lession 1: Python2 vs. Python3
     #! python2.7
   ```
 
-![](/assets/setup_0.png)
+![](/assets/python2 vs. python3/setup_0.png)
 
 * **Q: I have some Python2 scripts, how I can convert them to Python3?**
 
@@ -39,20 +39,15 @@ Lession 1: Python2 vs. Python3
 
 * **Q: What's different between version 2 and version 3?**
 
-  ```
-  A: So far, I have found 2 differences:
-
-  print\(\) is a function in Python3.
-  In Python2: print "Hello World!"
-  In Python3: print \("Hello World!"\)
-
-  raw\_input\(\) was renamed to input\(\).
-  ```
+  | Python2 | Python3 |
+  | :--- | :--- |
+  | print "Hello world!"                                                                   print "Hello world!",           | print\("Hello world!"\)                                                                 print \("Hello world!", end\(" "\)\) |
+  | raw\_input\(\) | input\(\) |
 
 ###### References:
 
 1. [https://wiki.python.org/moin/Python2orPython3](https://wiki.python.org/moin/Python2orPython3)
-2. [https://docs.python.org/3/whatsnew/3.0.html\\#porting-to-python-3-0](https://docs.python.org/3/whatsnew/3.0.html\#porting-to-python-3-0)
+2. [https://docs.python.org/3/whatsnew](https://docs.python.org/3/whatsnew/)
 3. Python 3.6.0 documentation
 
 
