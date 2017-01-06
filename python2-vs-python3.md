@@ -45,10 +45,16 @@ Lession 1: Python2 vs. Python3
 
 * **Q: What's different between version 2 and version 3?**
 
-  | Python2 | Python3 |
-  | :--- | :--- |
-  | print "Hello world!"                                                                   print "Hello world!", | print\("Hello world!"\)                                                                 print \("Hello world!", end\(" "\)\) |
-  | raw\_input\(\) | input\(\) |
+  |  | Python2 | Python3 |
+  | :--- | :--- | :--- |
+  | print | print "Hello world!"                               print "Hello world!", | print\("Hello world!"\)                              print \("Hello world!", end\(" "\)\) |
+  | input | raw\_input\(\) | input\(\) |
+  | integer division | 1/2, returns 0 | 1/2, returns 0.5 |
+  | format | "My name is %s" %"Yifan" | "My name is {0}".format\('Yifan'\) |
+
+###### Terms:
+
+1. PEP : Python Enhancement Proposals
 
 ###### References:
 
