@@ -18,6 +18,3 @@
   #escape braces
   print('My name is {0} - {{}}'.format('Yifan'))
   ```
-
-
-
