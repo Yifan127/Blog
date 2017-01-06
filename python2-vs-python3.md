@@ -45,7 +45,7 @@ Lession 1: Python2 vs. Python3
 
 * **Q: What's different between version 2 and version 3?**
 
-  | Differences | Python2 | Python3 |
+  | Difference | Python2 | Python3 |
   | :--- | :--- | :--- |
   | print | print "Hello world!"                               print "Hello world!", | print\("Hello world!"\)                              print \("Hello world!", end\(" "\)\) |
   | input | raw\_input\(\) | input\(\) |
