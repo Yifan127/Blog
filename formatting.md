@@ -1,7 +1,9 @@
 ### Formatting
 
-* **Basic formatting**
-<pre><code>#old
+* **Basicformatting**
+
+  ```
+  #old
   print(('%s %s') %('one','two'))
   #new
   print('{} {}'.format('one','two'))
@@ -16,9 +18,7 @@
 
   #escape braces
   print('My name is {0} - {{}}'.format('Yifan'))
-</code></pre>
-
-
+  ```
 
 
 
