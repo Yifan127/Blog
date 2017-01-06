@@ -1,8 +1,7 @@
 ### Formatting
 
 * **Basic formatting**
-<pre><code>
-  #old
+<pre><code>#old
   print(('%s %s') %('one','two'))
   #new
   print('{} {}'.format('one','two'))
