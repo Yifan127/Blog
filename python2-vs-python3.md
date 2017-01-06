@@ -45,9 +45,9 @@
 |Difference|Python2|Python3|
 | :---- | :-------- |:--------|
 |**Print**|print "Hello world!"<br>print "Hello world!", | print\("Hello world!"\)<br>print \("Hello world!", end\(" "\)\) |
-|**input**|raw\_input\(\) | input\(\) |
-|**integer division**|1/2, returns 0 | 1/2, returns 0.5|
-|**format**|`python"My name is %s" %"Yifan"` | `python"My name is {0}".format\('Yifan'\)` |
+|**Input**|raw\_input\(\) | input\(\) |
+|**Integer division**|1/2, returns 0 | 1/2, returns 0.5|
+|**Format**|`python"My name is %s" %"Yifan"` | `python"My name is {0}".format\('Yifan'\)` |
 
 ###### Terms:
 
