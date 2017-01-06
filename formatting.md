@@ -1,22 +1,21 @@
 ### Formatting
 
 * **Basic formatting**
-
 <pre><code>
-  old
+  #old
   print(('%s %s') %('one','two'))
-  new
+  #new
   print('{} {}'.format('one','two'))
 
-  old
+  #old
   print(('%d %d') %(1,2))
-  new
+  #new
   print('{} {}'.format(1,2))
 
-  re-arranging the order
+  #re-arranging the order
   print('{1} {0}'.format('one','two'))
 
-  escape braces
+  #escape braces
   print('My name is {0} - {{}}'.format('Yifan'))
 </code></pre>
 
