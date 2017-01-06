@@ -47,7 +47,7 @@
 |**Print**|print "Hello world!"<br>print "Hello world!", | print\("Hello world!"\)<br>print \("Hello world!", end\(" "\)\) |
 |**Input**|raw\_input\(\) | input\(\) |
 |**Integer division**|1/2, returns 0 | 1/2, returns 0.5|
-|**Format**|`python"My name is %s" %"Yifan"` | `python"My name is {0}".format\('Yifan'\)` |
+|**Format**|`"My name is %s" %"Yifan"` | `"My name is {0}".format\('Yifan'\)` |
 
 ###### Terms:
 
