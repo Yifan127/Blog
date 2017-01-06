@@ -12,6 +12,7 @@ print('{} {}'.format('one','two'))
 print(('%d %d') %(1,2))
 #new
 print('{} {}'.format(1,2))
+
 #re-arranging the order
 print('{1} {0}'.format('one','two'))
 
