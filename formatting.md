@@ -2,7 +2,7 @@
 
 - **Basic format**
 
-```
+```python
 #old
 print(('%s %s') %('one','two'))
 #new
