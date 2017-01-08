@@ -30,8 +30,13 @@ I am so used to using Github Desktop, but it's a little 'weird' if you don't kno
  git push origin master
  ```
  7. I want to rename the remote name <origin> to a more meanningful one <Py103>.
-```
-git remote rename origin Py103
-```
+ ```
+ git remote rename origin Py103
+ ```
+ 8. I forked a repository in Github, and I find there some updates in the upstream repository, then I want to sync my forked repository with the upstream repository.
+ ```
+ git 
+ ```
+
 
 
