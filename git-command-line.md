@@ -19,7 +19,7 @@ I am so used to using Github Desktop, but it's a little 'weird' if you don't kno
  ```
  4. Add the URL for the remote repository.
  ```
- git remote add origin https://github.com/Yifan127/Py103.git
+ git remote add origin https://github.com/Yifan127/LearnPythonTheHardWay.git
  ```
  5. Verify the remote URL
  ```
@@ -29,14 +29,36 @@ I am so used to using Github Desktop, but it's a little 'weird' if you don't kno
  ```
  git push origin master
  ```
- 7. I want to rename the remote name <origin> to a more meanningful one <Py103>.
+ 7. I want to rename the remote name <origin> to a more meanningful one <LPTHW>.
  ```
- git remote rename origin Py103
+ git remote rename origin LPTHW
  ```
- 8. I forked a repository in Github, and I find there some updates in the upstream repository, then I want to sync my forked repository with the upstream repository.
+ 8. I forked a repository in Github, and I find there are some updates in the upstream repository, then I want to sync my forked repository with the upstream repository.
  ```
- git 
+ git remote add Py103 https://github.com/Yifan127/Py103.git
+ git remote add AIMinder https://github.com/AIMinder/Py103.git
+ git remote -v
  ```
+ ![](/assets/git/git remote -v.PNG)
+ 9. Fetch the update from upstream repository to local master branch.
+ ```
+ git fetch AIMinder
+ ```
+ 10. Swith to master branch.
+ ```
+ git checkout master
+ ```
+ 11. Merge the changes from upstream with local master branch.
+ ```
+ git merge AIMinder/master
+ ```
+ 12. All the operations above are in my local repository, so at last I need to push the update to my remote Github repository.
+ ```
+ git push Py103 master
+ ```
+ 
+ 
+
 
 
 
