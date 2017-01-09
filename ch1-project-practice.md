@@ -101,6 +101,8 @@
   
       UnicodeDecodeError: 'gbk' codec can't decode byte 0xb4 in position 9: illegal multibyte sequence
       
+      I stucked on this issue for couple hours, and read several blogs about characters encoding and decoding in Python2 and Python3, here is the best one I have ever read! [Python character encoding and decoding](http://ajucs.com/2015/11/10/Python-character-encoding-explained.html) 
+      
       **Thinking**:
   
       1. The data in weather_info.txt is encoding in utf-8
@@ -117,7 +119,8 @@
               line = line.strip()
               data = line.split(',')
       ```
-      
+    **Summary3**: Use **open("filename", "encoding=xxx")** when reading unicode data from a file.
+  
 * **Dictionary**
 
  * 2 ways to create a new dictionary
@@ -148,7 +151,7 @@
         return weather_dict
  ```
  
- * 2 ways to check if the dictory is empty
+ * 3 ways to check if the dictory is empty
  
  There is a requirement in the task: print all the query history before exit. To implement it, I save the query results to a dictionary named 'weather_history', then I need to check whether it is empty, if yes, quit directory, else, print history then quit.
  
@@ -165,7 +168,8 @@
         print("Method3: This is an empty dictionary")
         
  ```
-      
+ To understand method2 and method3 better, read [Python3 docs Truth Value Testing](https://docs.python.org/3/library/stdtypes.html) 
+ **Summary
     
       
   
