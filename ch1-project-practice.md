@@ -94,7 +94,8 @@
       ```python
       with open("weather_info.txt") as file:
           for line in file.readlines():
-              processing_line()
+              line = line.strip()
+              data = line.split(',')
       ```
   * There are **Chinese characters** in weather_info.txt, so I get this exception:
   
@@ -120,10 +121,17 @@
 
  * 2 ways to create a new dictionary
  
-     1. weather_dict = {}
-     2. weather_dict = dict()
+ ```python
+     weather_dict = {}
+     weather_dict = dict()
+ ```
  
  * 2 ways to add new key:value to dictionary
+ 
+ ```python
+     weather_dict["key"] = value
+     weather_dict.update = 
+ ```
 
 
       
