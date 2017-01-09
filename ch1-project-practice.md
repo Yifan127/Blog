@@ -147,9 +147,24 @@
                 weather_dict[data[0]] = data[1]
         return weather_dict
  ```
-
-
-      
+ 
+ * 2 ways to check if the dictory is empty
+ 
+ There is a requirement in the task: print all the query history before exit. To implement it, I save the query results to a dictionary named 'weather_history', then I need to check whether it is empty, if yes, quit directory, else, print history then quit.
+ 
+ ```python
+    weather_history = {}
+    
+    if len(weather_history) == 0:
+        print("Method1: This is an empty dictionary")
+    
+    if not weather_history:
+        print("Method2: This is an empty dictionary")
+    
+    if not bool(weather_history):
+        print("Method3: This is an empty dictionary")
+        
+ ```
       
     
       
