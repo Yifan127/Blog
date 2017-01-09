@@ -131,7 +131,7 @@
  
  ```python
      weather_dict[data[0]] = data[1]
-     weather_dict.update = 
+     weather_dict.update = ({data[0]: data[1]})
  ```
 
 
