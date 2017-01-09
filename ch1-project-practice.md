@@ -123,6 +123,7 @@
      1. weather_dict = {}
      2. weather_dict = dict()
  
+ * 2 ways to add new key:value to dictionary
 
 
       
