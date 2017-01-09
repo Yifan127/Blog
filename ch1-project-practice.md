@@ -134,7 +134,7 @@
      weather_dict.update = ({data[0]: data[1]})
  ```
  
- so now, I have a function like this
+ so now, I have a function as below: it converts a string like '北京，晴' to an item in a dictionary like '北京：晴'
  
  ```python
      filename = "weather_info.txt"
@@ -144,8 +144,6 @@
             for line in file.readlines():
                 line = line.strip()
                 data = line.split(',')
-                # anther way to update dictory:
-                # weather_dict.update({data[0]: data[1]})
                 weather_dict[data[0]] = data[1]
         return weather_dict
  ```
