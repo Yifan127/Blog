@@ -114,7 +114,8 @@
       ```python
       with open("weather_info.txt", encoding = "utf-8") as file:
           for line in file.readlines():
-              processing_line()
+              line = line.strip()
+              data = line.split(',')
       ```
       
 * **Dictionary**
@@ -129,7 +130,7 @@
  * 2 ways to add new key:value to dictionary
  
  ```python
-     weather_dict["key"] = value
+     weather_dict[data[0]] = data[1]
      weather_dict.update = 
  ```
 
