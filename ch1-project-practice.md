@@ -87,7 +87,7 @@
      
         True
         
-       **Summary 2**: Use with to deadling with file object, the advantage is:  **file is properly closed**, even if an exception is raised. 
+       **Summary 2**: Use **with** to deadling with file object, the advantage is:  **file is properly closed**, even if an exception is raised. 
 
   * After reading the file to a list, loop over the list to get each line
   
@@ -96,6 +96,18 @@
           for line in file.readlines():
               processing_line()
       ```
+  * There are **Chinese characters** in weather_info.txt, so I get this exception:
+  
+      UnicodeDecodeError: 'gbk' codec can't decode byte 0xb4 in position 9: illegal multibyte sequence
+      
+      **Thinking**:
+      
+      1. The data that read from weather_info.txt is coding in utf-8
+      2. In Windows CMD, default coding is gbk
+      3. The error indicates that "gbk can't decode"
+      
+  
+
    
                  
         
