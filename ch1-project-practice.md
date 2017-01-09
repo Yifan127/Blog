@@ -101,8 +101,6 @@
   
       UnicodeDecodeError: 'gbk' codec can't decode byte 0xb4 in position 9: illegal multibyte sequence
       
-      I stucked on this issue for couple hours, and read several blogs about characters encoding and decoding in Python2 and Python3, here is the best one I have ever read! [Python character encoding and decoding](http://ajucs.com/2015/11/10/Python-character-encoding-explained.html) 
-      
       **Thinking**:
   
       1. The data in weather_info.txt is encoding in utf-8
@@ -120,6 +118,7 @@
               data = line.split(',')
       ```
     **Summary3**: Use **open("filename", "encoding=xxx")** when reading unicode data from a file.
+    I stucked on this issue for couple hours, and read several blogs about characters encoding and decoding in Python2 and Python3, here is the best one I have ever read! [Python character encoding and decoding](http://ajucs.com/2015/11/10/Python-character-encoding-explained.html) 
   
 * **Dictionary**
 
