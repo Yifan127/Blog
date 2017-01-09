@@ -49,7 +49,7 @@
         2. Read a single line of a file
         ```python
         # open a file in read mode
-        file = open("weather_info.txt",'r')
+        file = open("weather_info.txt")
         str_readline = file.readline()
         print(str_readline)
         # close the file
@@ -62,7 +62,7 @@
         3. Read all the lines of a file in a list 
         ```python
         # open a file in read mode
-        file = open("weather_info.txt",'r')
+        file = open("weather_info.txt")
         list_readlines = file.readlines()
         print(list_readlines)
         # close the file
@@ -73,13 +73,32 @@
         
         ![](/assets/ch1practice/readlines.PNG)
     
-         **Summary one**: Use readlines().
+         **Summary 1**: Use readlines().
          
- * Good practice to use **with** when deadling with file object:
+ * Good practice to use **with** 
  
       ```python
-      with open("weather_info.txt
-      ```     
+      with open("weather_info.txt") as file:
+          list = file.readlines()
+      print(file.closed)
+      ```  
+      
+     output
+     
+        True
+        
+       **Summary 2**: Use with to deadling with file object, the advantage is:  **file is properly closed**, even if an exception is raised. 
+
+  * After reading the file to a list, loop over the list to get each line
+  
+      ```python
+      with open("weather_info.txt") as file:
+          for line in file.readlines():
+              processing_line()
+      ```
+   
+                 
+        
 
 
 
