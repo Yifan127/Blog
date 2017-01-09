@@ -118,6 +118,11 @@
       
 * **Dictionary**
 
+ * 2 ways to create a new dictionary
+ 
+     1. weather_dict = {}
+     2. weather_dict = dict()
+ 
 
 
       
