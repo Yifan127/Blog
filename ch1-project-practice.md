@@ -5,7 +5,7 @@
     1. Input city, output weather info
     2. Input 'h' or 'help', print usage guide
     3. Exit the scipt
-    4. Print all the query record before quit
+    4. Print all the query records before quit
 
 #### Break down to small tasks
 
@@ -27,7 +27,7 @@
 * **\_\_name\_\_**
 * **Writing help for script**
 
-#### Recording all the thinkings when I solve the problem.
+#### Recording all the thinking when I solve the problem.
 * **Read File**
 
     * 3 ways to read a file:
