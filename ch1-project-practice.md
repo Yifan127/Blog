@@ -133,6 +133,22 @@
      weather_dict[data[0]] = data[1]
      weather_dict.update = ({data[0]: data[1]})
  ```
+ 
+ so now, I have a function like this
+ 
+ ```python
+     filename = "weather_info.txt"
+     weather_dict = {}
+     def convert_txt_to_dict(filename):
+        with open(filename, encoding = "utf-8") as file:
+            for line in file.readlines():
+                line = line.strip()
+                data = line.split(',')
+                # anther way to update dictory:
+                # weather_dict.update({data[0]: data[1]})
+                weather_dict[data[0]] = data[1]
+        return weather_dict
+ ```
 
 
       
