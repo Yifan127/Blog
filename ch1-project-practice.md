@@ -163,8 +163,9 @@
  
          AttributeError: 'dict' object has no attribute 'has_key'    
  The reason is **dict.has_key()** is removed in Python3, and use **in** operator instead. Like this:
+     
+ **Summary4**: Use "**if key in dict:**" to check whether the key is exist in a dictionary in Python3.
  
-         city in weather_dict
  So the script looks like this:
  ```python
  while True:
@@ -182,9 +183,6 @@
         else:
             print("!!!Cannot find city [{0}]!!!\n".format(choice))
  ```
- 
-        
-     
 
  * 3 ways to check if the dictionary is empty
  
