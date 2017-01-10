@@ -74,7 +74,7 @@
         
         ![](/assets/ch1practice/readlines.PNG)
     
-         **Summary 1**: Use **readlines()** to get a list, each line in the file is an element in the list. Although **readline()** is not very efficiency, but is useful when the when the file is realy **big**, like 2GB, because if using **read()**, it will read the entire file and occupy lots of RAM.
+         **Summary 1: Use readlines() to get a list, each line in the file is an element in the list. Although **readline()** is not very efficiency, but is useful when the when the file is realy **big**, like 2GB, because if using **read()**, it will read the entire file and occupy lots of RAM.**
          
  * Good practice to use **with** 
  
@@ -88,7 +88,7 @@
      
         True
         
-       **Summary 2**: Use **with** to deadling with file object, the advantage is:  **file is properly closed**, even if an exception is raised. 
+       **Summary 2: Use with to deadling with file object, the advantage is:  file is properly closed, even if an exception is raised.**
 
   * After reading the file to a list, loop over the list to get each line
   
@@ -118,7 +118,7 @@
               line = line.strip()
               data = line.split(',')
       ```
-    **Summary3**: Use **open("filename", "encoding=xxx")** when reading unicode data from a file.
+    **Summary3: Use open("filename", "encoding=xxx") when reading unicode data from a file.**
     
     I stucked on this issue for couple hours, and read several blogs about characters encoding and decoding in Python2 and Python3, here is the best one I have ever read!
     
@@ -164,7 +164,7 @@
          AttributeError: 'dict' object has no attribute 'has_key'    
  The reason is **dict.has_key()** is removed in Python3, and use **in** operator instead. Like this:
      
- **Summary4**: Use "**if key in dict:**" to check whether the key is exist in a dictionary in Python3.
+ **Summary4: Use "if key in dict:" to check whether the key is exist in a dictionary in Python3.**
  
  So the script looks like this:
  ```python
@@ -203,7 +203,7 @@
  ```
  To understand method2 and method3 better, read [Python3 docs Truth Value Testing](https://docs.python.org/3/library/stdtypes.html) 
  
- **Summary5**: **Any object can be tested for truth value, for use in an if or while condition.** 
+ **Summary5: Any object can be tested for truth value, for use in an if or while condition.** 
 
      The following values are considened false: 
      * None
@@ -219,7 +219,7 @@
 
     To quit , I find two similar functions:**exit()** and **sys.exit()**, what's the difference?
      
-     **Summary6**: They all raising SystemExit, exit() is a helper for the interactive shell, sys.exit() is intended for use in programs. Refer to [an answer in stackoverflow](http://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python)
+     **Summary6: They all raising SystemExit, exit() is a helper for the interactive shell, sys.exit() is intended for use in programs. Refer to [an answer in stackoverflow](http://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python)**
      
      And now, I have other two functions:
      
@@ -260,6 +260,19 @@
     **Summary7: A module's \_\_name\_\_ is set to "\_\_main\_\_" when read from standard input, a script, or from an interactive prompt. **
     
     A reason for doing this is that sometimes you write a module, and it can be executed directory. Alternatively, it can also be imported and used in another module. By doingn the main check, you can have that code only execute when you want to run the module as a program and not have it execute when someone just wants to import your module and call your functions themselves.
+    
+    A practice about the main check:
+    maincheck1.py
+    ```python
+    def function1():
+        print("This is a __name__ practice.")
+
+    if __name__ == "__main__":
+        print("This script is being run by itself.")
+    else:
+        print("I am being imported into other modules.")
+
+    ```
     
  
  
