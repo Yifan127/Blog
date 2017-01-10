@@ -167,16 +167,6 @@
          city in weather_dict
  So the script looks like this:
  ```python
- def print_weather_report(city):
-    weather = weather_dict[city]
-    if not weather:
-        print("!!!没有查到{0}}的天气!!!\n".format(city))
-    else:
-        print("-" * 20)
-        print("{0}: {1}".format(city, weather))
-        print("-" * 20)
-        weather_history[city] = weather
-        
  while True:
         print("Welcome to query weather report\n\t* Please input city name\n\t* To quit, input quit or exit")
         choice = input("> ")
