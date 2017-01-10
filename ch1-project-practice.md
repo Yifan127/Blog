@@ -262,7 +262,8 @@
     A reason for doing this is that sometimes you write a module, and it can be executed directory. Alternatively, it can also be imported and used in another module. By doingn the main check, you can have that code only execute when you want to run the module as a program and not have it execute when someone just wants to import your module and call your functions themselves.
     
     A practice about the main check:
-    maincheck1.py
+    
+    maincheck1.py:
     ```python
     def function1():
         print("This is a __name__ practice.")
@@ -273,6 +274,15 @@
         print("I am being imported into other modules.")
 
     ```
+    maincheck2.py:
+    ```python
+    import maincheck1
+
+    maincheck1.function1()
+    ```
+    output:
+    ![](/assets/ch1practice/maincheck.PNG)
+
     
  
  
