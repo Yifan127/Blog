@@ -175,7 +175,6 @@
  **Summary4**: **Any object can be tested for truth value, for use in an if or while condition.** 
  
      The following values are considened false: 
-     
          * None
          * False
          * zero of any numeric type: 0,0.0
