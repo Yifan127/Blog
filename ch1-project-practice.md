@@ -199,7 +199,7 @@
      def get_weather_report(city):
         weather = weather_dict[city]
         if not weather:
-            print("!!!Cannot find {0}}!!!\n".format(city))
+            print("!!!Cannot find the weather of {0}}!!!\n".format(city))
         else:
             print("-" * 20)
             print("{0}: {1}".format(city, weather))
