@@ -118,7 +118,10 @@
               data = line.split(',')
       ```
     **Summary3**: Use **open("filename", "encoding=xxx")** when reading unicode data from a file.
-    I stucked on this issue for couple hours, and read several blogs about characters encoding and decoding in Python2 and Python3, here is the best one I have ever read! [Python character encoding and decoding](http://ajucs.com/2015/11/10/Python-character-encoding-explained.html) 
+    
+    I stucked on this issue for couple hours, and read several blogs about characters encoding and decoding in Python2 and Python3, here is the best one I have ever read!
+    
+      [Python character encoding and decoding](http://ajucs.com/2015/11/10/Python-character-encoding-explained.html) 
   
 * **Dictionary**
 
@@ -168,7 +171,30 @@
         
  ```
  To understand method2 and method3 better, read [Python3 docs Truth Value Testing](https://docs.python.org/3/library/stdtypes.html) 
- **Summary
+ 
+ **Summary4**: **Any object can be tested for truth value, for use in an if or while condition.** 
+ 
+     The following values are considened false: 
+     * None
+     * False
+     * zero of any numeric type: 0,0.0
+     * any empty sequence, '',(),[]
+     * any empty mapping, {}
+     * instance of user-defined classes, if the class defines a \_\_bool\_\_() or \_\_len()\_\_ method, when that returns the integer zero or bool value False.
+    
+     All other values are considered true.
+ 
+ 
+ * To quit , I find two similar functions:exit() and sys.exit(), what's the difference?
+ 
+ Refer to [an answer in stackoverflow](http://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python)
+ 
+ **Summary5**: 
+     * They all raising SystemExit
+     * exit() is a helper for the interactive shell
+     * sys.exit() is intended for use in programs.
+ 
+ 
     
       
   
