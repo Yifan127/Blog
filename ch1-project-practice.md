@@ -1,10 +1,10 @@
-### Ch1 Project practice
+### Ch1 Project practice : Weather Report
 
 #### Function description
     
     1. Input city, output weather info
     2. Input 'h' or 'help', print usage guide
-    3. Exit the scipt
+    3. Input 'exit' or 'quit' to quit the script
     4. Print all the query records before quit
 
 #### Break down to small tasks
@@ -12,8 +12,10 @@
     1. Read a txt file named 'weather_info.txt'.
     2. Get the data from the file, then save the data in dictionary.
     3. Chinese character decoding and encoding.
-    4. What does "\_\_name\_\_" mean?
-    5. How to write help for script?
+    4. How to write help for script?
+    5. How to quit a script?
+    6. What does "\_\_name\_\_" mean?
+
 
 #### To implement the function, I need to understand:
 * **Read file**
