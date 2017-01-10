@@ -18,17 +18,17 @@
 
 
 #### To implement the function, I need to understand:
-* **Read file**
+* **read file**
 * **dictionary**
-* **Character decoding and encoding**
+* **character decoding and encoding**
     * ASCII
     * GBK
     * Unicode, UTF-8
     * String and bytes in Python3 vs. unicode and 8-bit Python2
-* **Loop**
+* **loop**
 * **exit**
 * **\_\_name\_\_**
-* **Writing help for script**
+* **argparse**
 
 #### Recording all the thinking when I solve the problem.
 * **Reading Unicode File**
