@@ -155,6 +155,14 @@
  ```
  
  * check if a dictionary has a key
+ 
+ At first, I try this:
+ 
+         weather_dict.has_key(city)
+ But get below exception:
+ 
+         AttributeError: 'dict' object has no attribute 'has_key'    
+     
 
  * 3 ways to check if the dictionary is empty
  
