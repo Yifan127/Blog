@@ -74,7 +74,7 @@
         
         ![](/assets/ch1practice/readlines.PNG)
     
-         **Summary 1**: Use readlines() to get a list, each line in the file is an element in the list.
+         **Summary 1**: Use **readlines()** to get a list, each line in the file is an element in the list. Although **readline()** is not very efficiency, but is useful when the when the file is realy **big**, like 2GB, because if using **read()**, it will read the entire file and use all of the RAM.
          
  * Good practice to use **with** 
  
