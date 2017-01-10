@@ -184,6 +184,8 @@
     
      All other values are considered true.
  
+* 2 ways to quit
+
 To quit , I find two similar functions:exit() and sys.exit(), what's the difference?
  
  Refer to [an answer in stackoverflow](http://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python)
