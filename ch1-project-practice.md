@@ -177,17 +177,8 @@
             print_weather_report(choice)
         elif choice.lower() == "quit" or choice.lower() == "exit":
             print_history_exit(weather_history)
-        elif choice.lower() == "help" or choice.lower() == "h":
-            try:
-                output = subprocess.check_output("py .\weather_report.py -h")
-                output = output.decode("gbk")
-                print("output:{0}".format(output))
-            except subprocess.CalledProcessError as e:
-                output = e.output
-                code = e.returncode
-                print(code, output)
         else:
-            print("!!!没有查到这个城市[{0}]!!!\n".format(choice))
+            print("!!!Cannot find city [{0}]!!!\n".format(choice))
  ```
  
         
