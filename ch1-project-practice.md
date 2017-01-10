@@ -33,7 +33,7 @@
 
     * 3 ways to read a file:
     
-        1. Read the entire file, return string or bytes
+        1. **read()**: Read the entire file, return string or bytes
 
         ```python
         # open a file in read mode
@@ -47,7 +47,7 @@
         output:
         
         ![](/assets/ch1practice/read.PNG)
-        2. Read a single line of a file
+        2. **readline()**: Read a single line of a file
         ```python
         # open a file in read mode
         file = open("weather_info.txt")
@@ -60,7 +60,7 @@
         output:
         
         ![](/assets/ch1practice/readline.PNG)
-        3. Read all the lines of a file in a list 
+        3. **readlines()**: Read all the lines of a file in a list 
         ```python
         # open a file in read mode
         file = open("weather_info.txt")
