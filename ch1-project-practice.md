@@ -173,7 +173,7 @@
  To understand method2 and method3 better, read [Python3 docs Truth Value Testing](https://docs.python.org/3/library/stdtypes.html) 
  
  **Summary4**: **Any object can be tested for truth value, for use in an if or while condition.** 
- 
+
      The following values are considened false: 
          * None
          * False
@@ -181,7 +181,6 @@
          * any empty sequence, '',(),[]
          * any empty mapping, {}
          * instance of user-defined classes, if the class defines a \_\_bool\_\_() or \_\_len()\_\_ method, when that returns the integer zero or bool value False.
-    
      All other values are considered true.
  
  * 2 ways to quit
