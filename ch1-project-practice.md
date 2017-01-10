@@ -302,7 +302,6 @@
             description = '''
             line1
             \t* line2
-            \t* line3
             ''')
         args=parser.parse_args()
             ```
