@@ -183,13 +183,13 @@
      * instance of user-defined classes, if the class defines a \_\_bool\_\_() or \_\_len()\_\_ method, when that returns the integer zero or bool value False.
      All other values are considered true.
  
+ 
  * 2 ways to quit
 
-To quit , I find two similar functions:exit() and sys.exit(), what's the difference?
+To quit , I find two similar functions:**exit()** and **sys.exit()**, what's the difference?
  
- Refer to [an answer in stackoverflow](http://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python)
- 
- **Summary5**: They all raising SystemExit, exit() is a helper for the interactive shell, sys.exit() is intended for use in programs.
+ **Summary5**: They all raising SystemExit, exit() is a helper for the interactive shell, sys.exit() is intended for use in programs. Refer to [an answer in stackoverflow](http://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python)
+
  
  
     
