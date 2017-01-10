@@ -154,7 +154,9 @@
         return weather_dict
  ```
  
- * 3 ways to check if the dictory is empty
+ * check if a dictionary has a key
+
+ * 3 ways to check if the dictionary is empty
  
  There is a requirement in the task: print all the query history before exit. To implement it, I save the query results to a dictionary named 'weather_history', then I need to check whether it is empty, if yes, quit directory, else, print history then quit.
  
