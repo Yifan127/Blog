@@ -293,7 +293,9 @@
         
     So, to implement this requirement, I have two sub tasks:
     
-    1. **Import argparse**, add a description for the script
+    1. Add a description for the script
+    
+    **Solution: import argparse**
         ```python
         import argparse
 
@@ -335,6 +337,10 @@
     
     output = subprocess.check_output("py .\weather_report.py -h")
     ```
+    And test it, garbled text is displayed.
+    ![](/assets/ch1practice/encode.PNG)
+    
+    **Summary9**
     
     
 
