@@ -283,6 +283,36 @@
     
     A reason for doing this is that sometimes you write a module, and it can be executed directory. Alternatively, it can also be imported and used in another module. By doingn the main check, you can have that code only execute when you want to run the module as a program and not have it execute when someone just wants to import your module and call your functions themselves.
 
+* **Writing help for script**
+
+    The first thing comes to my mind about help is like this:
+
+    Executing the script with -h, then a usage is printed to Windows PowerShell.
+    
+        py weather_report.py -h
+        
+    So, to implement this requirement, I have two sub tasks:
+    
+    1. Import argparse, add a description for the script
+        ```python
+        import argparse
+
+        # help
+        parser = argparse.ArgumentParser(
+            description = '''
+            This is a weather report query script。
+            \t* Please input the city name
+            \t\teg.1：上海
+            \t\teg.2：浦东新区
+            \t* To quit, input quit or exit
+            \t* Query history will be printed before exit
+            ''')
+        args=parser.parse_args()
+            ```
+    2. How to execute command line "py weather_report.py -h" in python script?
+    
+    
+
 
     
  
