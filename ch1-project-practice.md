@@ -177,6 +177,8 @@
             print_weather_report(choice)
         elif choice.lower() == "quit" or choice.lower() == "exit":
             print_history_exit(weather_history)
+        elif choice.lower() == "help" or choice.lower() == "h":
+            print_help()
         else:
             print("!!!Cannot find city [{0}]!!!\n".format(choice))
  ```
