@@ -322,12 +322,19 @@
         \t* 退出请输入quit或者exit后按回车键，不区分大小写。
         \t* 退出前会打印所有查询过的城市天气信息。
         ''', formatter_class = argparse.RawTextHelpFormatter)
-        args=parser.parse_args()
+        args = parser.parse_args()
         ```
         **Summary8: 
         Import argparse to add help for script. By default, ArgumentParser objects line-wrap the description and epilog texts in command-line help messages.Use the RawTextHelpFormatter class instead to indicate that you already wrapped the lines.**
        
-    2. How to execute command line "py weather_report.py -h" in python script?
+    2. How to execute command line "py weather_report.py -h" in python script, and get the output?
+    
+    **Solution: import subprocess** 
+    ```python
+    import subprocess
+    
+    output = subprocess.check_output("py .\weather_report.py -h")
+    ```
     
     
 
