@@ -193,7 +193,7 @@
      
      And now, I have other two functions:
      
-     To get weather info and save the query history:
+     To get weather info and save the query history to a dictionary named weather_history:
      
      ```python
      def get_weather_report(city):
