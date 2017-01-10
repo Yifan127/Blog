@@ -191,15 +191,19 @@
      
      **Summary5**: They all raising SystemExit, exit() is a helper for the interactive shell, sys.exit() is intended for use in programs. Refer to [an answer in stackoverflow](http://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python)
      
-     And now, I have another function to print history and exit.
+     And now, I have other two functions:
+     
+     To get weather info and save the query history:
+     
+     To print history and exit.
      
      ```python
      def print_history_exit(weather_history):
         length = len(weather_history)
         if length == 0:
-            print("再见!")
+            print("Goodbye!")
         else:
-            print("再见! 您本次一共查询了{0}个城市的天气：".format(length))
+            print("Goodbye! You have queried {0} cities：".format(length))
             print("-" * 20)
             for key in weather_history:
                 print("{0}: {1}".format(key, weather_history[key]))
