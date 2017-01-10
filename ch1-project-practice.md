@@ -293,22 +293,41 @@
         
     So, to implement this requirement, I have two sub tasks:
     
-    1. Import argparse, add a description for the script
+    1. **Import argparse**, add a description for the script
         ```python
         import argparse
 
         # help
         parser = argparse.ArgumentParser(
             description = '''
-            This is a weather report query script。
-            \t* Please input the city name
-            \t\teg.1：上海
-            \t\teg.2：浦东新区
-            \t* To quit, input quit or exit
-            \t* Query history will be printed before exit
+            line1
+            \t* line2
+            \t* line3
             ''')
         args=parser.parse_args()
             ```
+        And test it,
+        ![](/assets/ch1practice/help.PNG)
+        Then new question: how to display the argparse help in multiple lines? 
+        
+        **Solution: RawTextHelpFormatter**
+        ```python
+        import argparse
+        # help
+        parser = argparse.ArgumentParser(
+        description = '''
+        这是一个查询城市天气的程序。
+        \t* 请输入城市或者地区的中文名称。
+        \t\t例子1：上海
+        \t\t例子2：浦东新区
+        \t* 退出请输入quit或者exit后按回车键，不区分大小写。
+        \t* 退出前会打印所有查询过的城市天气信息。
+        ''', formatter_class = argparse.RawTextHelpFormatter)
+        args=parser.parse_args()
+        ```
+        **Summary8: 
+        Import argparse to add help for script. By default, ArgumentParser objects line-wrap the description and epilog texts in command-line help messages.Use the RawTextHelpFormatter class instead to indicate that you already wrapped the lines.**
+       
     2. How to execute command line "py weather_report.py -h" in python script?
     
     
