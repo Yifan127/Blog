@@ -241,7 +241,7 @@
      ```python
      def print_history_exit(weather_history):
         length = len(weather_history)
-        if length ！= 0:
+        if length != 0:
             print("You have queried {0} cities：".format(length))
             print("-" * 20)
             for key in weather_history:
