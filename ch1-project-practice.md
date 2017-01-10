@@ -168,11 +168,11 @@
  
  So the script looks like this:
  ```python
+ weather_dict = convert_txt_to_dict(filename)
  while True:
         print("Welcome to query weather report\n\t* Please input city name\n\t* To quit, input quit or exit")
         choice = input("> ")
-        choice = choice.strip()
-        weather_dict = convert_txt_to_dict(filename)
+        choice = choice.strip()   
 
         if choice in weather_dict:
             print_weather_report(choice)
@@ -340,6 +340,8 @@
     And test it, garbled text is displayed.
     ![](/assets/ch1practice/encode.PNG)
     
+    **Solution**: Decoding in 'gbk'
+    
     **Summary9: [subprocess.check_out()](https://docs.python.org/3/library/subprocess.html) run command with arguments and return its output. If the return code is non-zero, it raises a CalledProcessError. The CalledProcessError object will have the return code in returncode attribute and any output in the output attribute. By default, this function will return the data as encoded bytes.**
     ```python
     # print help
@@ -352,7 +354,7 @@
             output = e.output
             code = e.returncode
             print(code, output)
-        ```
+    ```
     
     
 
