@@ -165,7 +165,31 @@
  The reason is **dict.has_key()** is removed in Python3, and use **in** operator instead. Like this:
  
          city in weather_dict
- So it looks like this:
+ So the script looks like this:
+ ```python
+ while True:
+        print("Welcome to query weather report\n\t* Please input city name\n\t* To quit, input quit or exit")
+        choice = input("> ")
+        choice = choice.strip()
+        weather_dict = convert_txt_to_dict(filename)
+
+        if choice in weather_dict:
+            print_weather_report(choice)
+        elif choice.lower() == "quit" or choice.lower() == "exit":
+            print_history_exit(weather_history)
+        elif choice.lower() == "help" or choice.lower() == "h":
+            try:
+                output = subprocess.check_output("py .\weather_report.py -h")
+                output = output.decode("gbk")
+                print("output:{0}".format(output))
+            except subprocess.CalledProcessError as e:
+                output = e.output
+                code = e.returncode
+                print(code, output)
+        else:
+            print("!!!没有查到这个城市[{0}]!!!\n".format(choice))
+ ```
+ 
         
      
 
