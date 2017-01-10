@@ -196,7 +196,7 @@
      To get weather info and save the query history to a dictionary named weather_history:
      
      ```python
-     def get_weather_report(city):
+     def print_weather_report(city):
         weather = weather_dict[city]
         if not weather:
             print("!!!Cannot find the weather of city {0}}!!!\n".format(city))
