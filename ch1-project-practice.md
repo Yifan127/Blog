@@ -162,6 +162,11 @@
  But get below exception:
  
          AttributeError: 'dict' object has no attribute 'has_key'    
+ The reason is **dict.has_key()** is removed in Python3, and use **in** operator instead. Like this:
+ 
+         city in weather_dict
+ So it looks like this:
+        
      
 
  * 3 ways to check if the dictionary is empty
