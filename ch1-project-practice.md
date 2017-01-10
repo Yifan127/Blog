@@ -74,7 +74,7 @@
         
         ![](/assets/ch1practice/readlines.PNG)
     
-         **Summary 1**: Use readlines().
+         **Summary 1**: Use readlines() to get a list, each line in the file is an element in the list.
          
  * Good practice to use **with** 
  
