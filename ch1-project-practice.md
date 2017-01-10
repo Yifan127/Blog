@@ -241,14 +241,13 @@
      ```python
      def print_history_exit(weather_history):
         length = len(weather_history)
-        if length == 0:
-            print("Goodbye!")
-        else:
-            print("Goodbye! You have queried {0} cities：".format(length))
+        if length ！= 0:
+            print("You have queried {0} cities：".format(length))
             print("-" * 20)
             for key in weather_history:
                 print("{0}: {1}".format(key, weather_history[key]))
             print("-" * 20)
+        print("Goodbye!")
         exit(0)
     ```
 * **\_\_name\_\_**
