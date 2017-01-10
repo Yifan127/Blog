@@ -340,7 +340,19 @@
     And test it, garbled text is displayed.
     ![](/assets/ch1practice/encode.PNG)
     
-    **Summary9**
+    **Summary9: [subprocess.check_out()](https://docs.python.org/3/library/subprocess.html) run command with arguments and return its output. If the return code is non-zero, it raises a CalledProcessError. The CalledProcessError object will have the return code in returncode attribute and any output in the output attribute. By default, this function will return the data as encoded bytes.**
+    ```python
+    # print help
+    def print_help():
+        try:
+            output = subprocess.check_output("py .\weather_report.py -h")
+            output = output.decode("gbk")
+            print("output:{0}".format(output))
+        except subprocess.CalledProcessError as e:
+            output = e.output
+            code = e.returncode
+            print(code, output)
+        ```
     
     
 
