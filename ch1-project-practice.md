@@ -24,6 +24,7 @@
     * Unicode, UTF-8
     * String and bytes in Python3 vs. unicode and 8-bit Python2
 * **Loop**
+* **exit**
 * **\_\_name\_\_**
 * **Writing help for script**
 
