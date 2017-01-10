@@ -257,10 +257,6 @@
     
     Here's a best answer in stackoverflow: [\_\_name\_\_ explanation](http://stackoverflow.com/questions/419163/what-does-if-name-main-do)
     
-    **Summary7: A module's \_\_name\_\_ is set to "\_\_main\_\_" when read from standard input, a script, or from an interactive prompt. **
-    
-    A reason for doing this is that sometimes you write a module, and it can be executed directory. Alternatively, it can also be imported and used in another module. By doingn the main check, you can have that code only execute when you want to run the module as a program and not have it execute when someone just wants to import your module and call your functions themselves.
-    
     **A practice about the main check**:
     
     maincheck1.py:
@@ -282,6 +278,11 @@
     ```
     output:
     ![](/assets/ch1practice/maincheck.PNG)
+    
+    **Summary7: A module's \_\_name\_\_ is set to "\_\_main\_\_" when read from standard input, a script, or from an interactive prompt. **
+    
+    A reason for doing this is that sometimes you write a module, and it can be executed directory. Alternatively, it can also be imported and used in another module. By doingn the main check, you can have that code only execute when you want to run the module as a program and not have it execute when someone just wants to import your module and call your functions themselves.
+
 
     
  
