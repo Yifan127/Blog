@@ -26,9 +26,10 @@
     * Unicode, UTF-8
     * String and bytes in Python3 vs. unicode and 8-bit Python2
 * **loop**
+* **argparse**
 * **exit**
 * **\_\_name\_\_**
-* **argparse**
+
 
 #### Recording all the thinking when I solve the problem.
 * **Reading Unicode File**
