@@ -124,7 +124,7 @@
     
       [Python character encoding and decoding](http://ajucs.com/2015/11/10/Python-character-encoding-explained.html) 
   
-* **Dictionary**
+* **dictionary**
 
  * 2 ways to create a new dictionary
  
@@ -140,7 +140,7 @@
      weather_dict.update = ({data[0]: data[1]})
  ```
  
- so now, I have a function as below: it converts a string like '北京，晴' to an item in a dictionary like '北京：晴'
+ So, I have a function as below: it converts a string like '北京，晴' to an item in a dictionary like '北京：晴'
  
  ```python
      filename = "weather_info.txt"
@@ -185,11 +185,27 @@
      All other values are considered true.
  
  
- * 2 ways to quit
+* **exit**
 
-To quit , I find two similar functions:**exit()** and **sys.exit()**, what's the difference?
- 
- **Summary5**: They all raising SystemExit, exit() is a helper for the interactive shell, sys.exit() is intended for use in programs. Refer to [an answer in stackoverflow](http://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python)
+    To quit , I find two similar functions:**exit()** and **sys.exit()**, what's the difference?
+     
+     **Summary5**: They all raising SystemExit, exit() is a helper for the interactive shell, sys.exit() is intended for use in programs. Refer to [an answer in stackoverflow](http://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python)
+     
+     And now, I have another function to print history and exit.
+     
+     ```python
+     def print_history_exit(weather_history):
+        length = len(weather_history)
+        if length == 0:
+            print("再见!")
+        else:
+            print("再见! 您本次一共查询了{0}个城市的天气：".format(length))
+            print("-" * 20)
+            for key in weather_history:
+                print("{0}: {1}".format(key, weather_history[key]))
+            print("-" * 20)
+        exit(0)
+    ```
 
  
  
