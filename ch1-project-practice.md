@@ -195,6 +195,17 @@
      
      To get weather info and save the query history:
      
+     ```python
+     def get_weather_report(city):
+        weather = weather_dict[city]
+        if not weather:
+            print("!!!没有查到{0}}的天气!!!\n".format(city))
+        else:
+            print("-" * 20)
+            print("{0}: {1}".format(city, weather))
+            print("-" * 20)
+            weather_history[city] = weather
+     ```
      To print history and exit.
      
      ```python
