@@ -343,6 +343,7 @@
     **Solution**: Decoding in 'gbk'
     
     **Summary9: [subprocess.check_out()](https://docs.python.org/3/library/subprocess.html) run command with arguments and return its output. If the return code is non-zero, it raises a CalledProcessError. The CalledProcessError object will have the return code in returncode attribute and any output in the output attribute. By default, this function will return the data as encoded bytes.**
+    
     So here is the last function: print_help()
     ```python
     # print help
