@@ -175,16 +175,16 @@
  **Summary4**: **Any object can be tested for truth value, for use in an if or while condition.** 
  
      The following values are considened false: 
-     * None
-     * False
-     * zero of any numeric type: 0,0.0
-     * any empty sequence, '',(),[]
-     * any empty mapping, {}
-     * instance of user-defined classes, if the class defines a \_\_bool\_\_() or \_\_len()\_\_ method, when that returns the integer zero or bool value False.
+         * None
+         * False
+         * zero of any numeric type: 0,0.0
+         * any empty sequence, '',(),[]
+         * any empty mapping, {}
+         * instance of user-defined classes, if the class defines a \_\_bool\_\_() or \_\_len()\_\_ method, when that returns the integer zero or bool value False.
     
      All other values are considered true.
  
-* 2 ways to quit
+ * 2 ways to quit
 
 To quit , I find two similar functions:exit() and sys.exit(), what's the difference?
  
