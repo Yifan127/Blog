@@ -203,7 +203,7 @@
  ```
  To understand method2 and method3 better, read [Python3 docs Truth Value Testing](https://docs.python.org/3/library/stdtypes.html) 
  
- **Summary4**: **Any object can be tested for truth value, for use in an if or while condition.** 
+ **Summary5**: **Any object can be tested for truth value, for use in an if or while condition.** 
 
      The following values are considened false: 
      * None
@@ -219,7 +219,7 @@
 
     To quit , I find two similar functions:**exit()** and **sys.exit()**, what's the difference?
      
-     **Summary5**: They all raising SystemExit, exit() is a helper for the interactive shell, sys.exit() is intended for use in programs. Refer to [an answer in stackoverflow](http://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python)
+     **Summary6**: They all raising SystemExit, exit() is a helper for the interactive shell, sys.exit() is intended for use in programs. Refer to [an answer in stackoverflow](http://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python)
      
      And now, I have other two functions:
      
@@ -251,7 +251,16 @@
             print("-" * 20)
         exit(0)
     ```
+* **\_\_name\_\_**
 
+    What does if \_\_name\_\_ == "\_\_main\_\_": do?
+    
+    Here's a best answer in stackoverflow: [\_\_name\_\_ explanation](http://stackoverflow.com/questions/419163/what-does-if-name-main-do)
+    
+    **Summary7: A module's \_\_name\_\_ is set to "\_\_main\_\_" when read from standard input, a script, or from an interactive prompt. **
+    
+    A reason for doing this is that sometimes you write a module, and it can be executed directory. Alternatively, it can also be imported and used in another module. By doingn the main check, you can have that code only execute when you want to run the module as a program and not have it execute when someone just wants to import your module and call your functions themselves.
+    
  
  
     
