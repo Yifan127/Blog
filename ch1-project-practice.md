@@ -17,7 +17,7 @@
 
 #### To implement the function, I need to understand:
 * **Read file**
-* **Dictionary**
+* **dictionary**
 * **Character decoding and encoding**
     * ASCII
     * GBK
