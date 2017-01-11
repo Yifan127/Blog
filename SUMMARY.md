@@ -10,6 +10,6 @@
     * [1.2 Chinese characters decoding](unicode-decoding.md)
     * [1.3 Dictionary](dictionary.md)
     * [1.4 Exit](exit.md)
-    * [\_\_name\_\_](name.md)
-    * [Writing help for a script](writing-help-for-script.md)
+    * [1.5 \_\_name\_\_](name.md)
+    * [1.6 Writing help for a script](writing-help-for-script.md)
 
