@@ -1,6 +1,6 @@
 ### Ch1 Project practice : Weather Report
 
-#### Function description
+#### Requirements description
     
     1. Input city, output weather info
     2. Input 'h' or 'help', print usage guide
