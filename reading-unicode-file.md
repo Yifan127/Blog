@@ -1,4 +1,4 @@
-### Reading Unicode File
+### Reading File
 
 #### 3 ways to read a file:
 

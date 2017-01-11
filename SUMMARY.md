@@ -5,6 +5,7 @@
 * [Formatting](formatting.md)
 * [Git command line](git-command-line.md)
 * [Ch1: Project practice](ch1-project-practice.md)
-    * [Reading Unicode File](reading-unicode-file.md)
+    * [Reading file](reading-unicode-file.md)
     * [Chinese characters decoding](unicode-decoding.md)
+    * [Dictionary](dictionary.md)
 
