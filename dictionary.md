@@ -43,8 +43,8 @@
  So the script looks like this:
  ```python
  weather_dict = convert_txt_to_dict(filename)
- while True:
-        print("Welcome to query weather report\n\t* Please input city name\n\t* To quit, input quit or exit")
+ print("Welcome to query weather report\n\t* Please input city name\n\t* To quit, input quit or exit")
+ while True:    
         choice = input("> ")
         choice = choice.strip()   
 

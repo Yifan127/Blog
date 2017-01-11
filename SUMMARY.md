@@ -8,4 +8,5 @@
     * [Reading file](reading-unicode-file.md)
     * [Chinese characters decoding](unicode-decoding.md)
     * [Dictionary](dictionary.md)
+    * [Exit](exit.md)
 
