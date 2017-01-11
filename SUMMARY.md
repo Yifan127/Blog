@@ -5,4 +5,5 @@
 * [Formatting](formatting.md)
 * [Git command line](git-command-line.md)
 * [Ch1: Project practice](ch1-project-practice.md)
+    * [Reading Unicode File](reading-unicode-file.md)
 
