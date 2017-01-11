@@ -9,4 +9,5 @@
     * [Chinese characters decoding](unicode-decoding.md)
     * [Dictionary](dictionary.md)
     * [Exit](exit.md)
+    * [\_\_name\_\_](name.md)
 
