@@ -10,4 +10,5 @@
     * [Dictionary](dictionary.md)
     * [Exit](exit.md)
     * [\_\_name\_\_](name.md)
+    * [Writing help for a script](writing-help-for-script.md)
 
