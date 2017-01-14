@@ -48,6 +48,9 @@
 |**Input**|raw\_input\(\) | input\(\) |
 |**Integer division**|1/2, returns 0 | 1/2, returns 0.5|
 |**Format**|`"My name is %s" %"Yifan"` | `"My name is {0}".format\('Yifan'\)` |
+|**range()**|range() and xrange()|range() behaves like xrange()|
+|**dict**|dict.has_key()|<key> in dict|
+|**text data**|unicode and 8-bit|String and bytes|
 
 ###### Terms:
 
