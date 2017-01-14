@@ -1,4 +1,4 @@
-### Ch1 Project practice : Weather Report
+### Week1 Project practice : Weather Report
 
 #### Requirements description
     
