@@ -13,4 +13,5 @@
     * [1.5 \_\_name\_\_](name.md)
     * [1.6 Writing help for a script](writing-help-for-script.md)
     * [1.7 Build-in Function](17-build-in-function.md)
+    * [1.8 Distribution](distribution.md)
 
