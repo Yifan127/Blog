@@ -1,4 +1,4 @@
-### dictionary
+### Dictionary
 
 #### 2 ways to create a new dictionary
  

@@ -1,4 +1,4 @@
-### Chinese characters decoding
+### Chinese Characters Decoding
 
 There are **Chinese characters** in weather_info.txt, so I get this exception:
 
