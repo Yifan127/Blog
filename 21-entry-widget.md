@@ -52,7 +52,7 @@ self.entry.pack(side=tk.RIGHT)
 
 * relief
 
-![](/assets/ch2/tkrelief.jpg)
+![](/assets/ch2/tkrelief.PNG)
 
 #### Functions
 
