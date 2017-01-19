@@ -18,7 +18,7 @@ file.close()
 ```
 output:
 
-![](/assets/ch1practice/read.PNG)   
+![](/assets/ch1/read.PNG)   
 
 ```python
 # readline
