@@ -18,7 +18,7 @@
     Also, I can specify a more explicit version:
     #! python2.7
 ```
-![](/assets/python2 vs. python3/setup_0.png)
+![](/assets/ch0/setup_0.png)
 
 * **Q: I have some Python2 scripts, how I can convert them to Python3?**
 ```

@@ -39,7 +39,7 @@ I am so used to using Github Desktop, but it's a little 'weird' if you don't kno
  git remote add AIMinder https://github.com/AIMinder/Py103.git
  git remote -v
  ```
- ![](/assets/git/git remote -v.PNG)
+ ![](/assets/ch0/git remote -v.PNG)
  9. Fetch the update from upstream repository to local master branch.
  ```
  git fetch AIMinder
