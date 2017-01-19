@@ -10,12 +10,12 @@ Use **Tkinter** to develop a GUI for the Weather Report App
 
     Read the [hello world program](https://docs.python.org/3/library/tkinter.html#a-simple-hello-world-program) in python doc 
 2. Class Definition
-3. Design a UI 
+3. Design a UI
 ![](/assets/ch2/GUI.PNG)
 
-    1.1 Tkinter Widgets
+    3.1 Tkinter Widgets
     
-    1.2 Geometry Manager
+    3.2 Geometry Manager
   
 4. Reuse week1 script: weather_report.py
 
