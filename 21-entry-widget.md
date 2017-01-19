@@ -25,4 +25,19 @@ if __name__ == '__main__':
     app = App(root)
     app.mainloop()
 ```
+#### Parameters
+
+|Parameters|Description|Example|
+|:---|:---|:---|
+|bg|||
+|anchor|||
+|fond|||
+
+#### Functions
+
+
+
+
+
+
 
