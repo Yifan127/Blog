@@ -1,6 +1,3 @@
-### Tkinter
+### Entry Widget
 
-![](/assets/ch2/GUI.PNG)
-
-Widget
 
