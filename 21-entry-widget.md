@@ -1,4 +1,4 @@
-### Entry Widget
+### Label and Entry Widget
 
 #### Create a simple Entry Widget with Label
 ```python
@@ -28,7 +28,10 @@ if __name__ == '__main__':
 #### Parameters
 ```python
 self.font = tk.font.Font(family='Times', size=12, weight=tk.font.BOLD)
-self.label = tk.Label(self, text='city', bg='sky blue', width=20,anchor=tk.W, font=self.font )
+self.label = tk.Label(self, text='city', bg='sky blue', width=10, anchor=tk.W, font=self.font)
+self.label.pack(side=tk.LEFT)
+self.entry = tk.Entry(self, relief=tk.SUNKEN)
+self.entry.pack(side=tk.RIGHT)
 ```
 ![](/assets/ch2/tkentry.PNG)
 
@@ -36,15 +39,28 @@ self.label = tk.Label(self, text='city', bg='sky blue', width=20,anchor=tk.W, fo
 |:---|:---|:---|
 |text|text displayed in the label|text='city'|
 |bg|the backgroud color|bg='sky blue'|
-|anchor|control where the text is positioned|anchor='tk.W'|
+|width|the width of the label|width=10|
+|anchor|control where the text is positioned, default is CENTER|anchor='tk.W'|
 |font|the font used for text|font=self.font|
+|relief|the appearance of a decorative border about the label,default is FLAT|relief=tk.SUNKEN|
 
-#### Constants for Anchor
+#### Constants 
+
+* anchor
 
 ![](/assets/ch2/tkanchor.jpg)
+
+* relief
+
+![](/assets/ch2/tkrelief.jpg)
+
 #### Functions
 
-
+```python
+self.entry.focus_set()
+self.entry.bind('<Return>', self.query_weather)
+city = self.entry.get()
+```
 
 
 
