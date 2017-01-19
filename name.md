@@ -25,7 +25,7 @@ maincheck1.function1()
 ```
 output:
 
-![](/assets/ch1practice/maincheck.PNG)
+![](/assets/ch1/maincheck.PNG)
 
 **Summary: A module's \_\_name\_\_ is set to "\_\_main\_\_" when read from standard input, a script, or from an interactive prompt. **
 

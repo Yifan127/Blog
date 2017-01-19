@@ -32,7 +32,7 @@ file.close()
 ```
 output:
     
-![](/assets/ch1practice/readline.PNG)
+![](/assets/ch1/readline.PNG)
 
 
 ```python
@@ -47,7 +47,7 @@ file.close()
 ```
 output:
 
-![](/assets/ch1practice/readlines.PNG)
+![](/assets/ch1/readlines.PNG)
 
  **Summary : Use readlines() to get a list, each line in the file is an element in the list. Although readline() is not very efficiency, but it is useful when the file is extremely large, like 2GB, because if using read(), it will read the entire file and occupy more then 2GB RAM.**
      

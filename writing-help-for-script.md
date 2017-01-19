@@ -23,7 +23,7 @@ parser = argparse.ArgumentParser(
 args=parser.parse_args()
     ```
 And test it,
-![](/assets/ch1practice/help.PNG)
+![](/assets/ch1/help.PNG)
 
 Then new question: how to display the argparse help in multiple lines? 
     
