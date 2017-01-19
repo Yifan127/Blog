@@ -28,7 +28,7 @@ if __name__ == '__main__':
 #### Parameters
 ```python
 self.font = tk.font.Font(family='Times', size=12, weight=tk.font.BOLD)
-self.label = tk.Label(self, text='city', bg='sky blue', anchor='tk.W', font=self.font )
+self.label = tk.Label(self, text='city', bg='sky blue', width=20,anchor=tk.W, font=self.font )
 ```
 ![](/assets/ch2/tkentry.PNG)
 
