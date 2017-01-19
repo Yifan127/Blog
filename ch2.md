@@ -12,7 +12,7 @@ Use **Tkinter** to develop a GUI for the Weather Report App
     
     1.2 Geometry Manager
 
-2. Reuse week1 task: the CML version weather_report.py
+2. Reuse week1 script: the CML version weather_report.py
 3. Class Definition
 4. Attributes of Widget
 
