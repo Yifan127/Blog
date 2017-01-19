@@ -57,7 +57,7 @@ import subprocess
 output = subprocess.check_output("py .\weather_report.py -h")
 ```
 And test it, garbled text is displayed.
-![](/assets/ch1practice/encode.PNG)
+![](/assets/ch1/encode.PNG)
 
 **Solution**: Decoding in 'gbk'
 
