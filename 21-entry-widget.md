@@ -26,13 +26,22 @@ if __name__ == '__main__':
     app.mainloop()
 ```
 #### Parameters
+```python
+self.font = tk.font.Font(family='Times', size=12, weight=tk.font.BOLD)
+self.label = tk.Label(self, text='city', bg='sky blue', anchor='tk.W', font=self.font )
+```
+![](/assets/ch2/tkentry.png)
 
 |Parameters|Description|Example|
 |:---|:---|:---|
-|bg|||
-|anchor|||
-|fond|||
+|text|text displayed in the label|text='city'|
+|bg|the backgroud color|bg='sky blue'|
+|anchor|control where the text is positioned|anchor='tk.W'|
+|font|the font used for text|font=self.font|
 
+#### Constants for Anchor
+
+![](/assets/ch2/tkanchor.jpg)
 #### Functions
 
 
