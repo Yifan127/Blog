@@ -8,7 +8,6 @@ Use **Tkinter** to develop a GUI for the Weather Report App
 
 1. Design a UI
 
- 
     1.1 Tkinter Widgets
     
     1.2 Geometry Manager
