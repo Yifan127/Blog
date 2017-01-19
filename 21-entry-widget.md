@@ -30,7 +30,7 @@ if __name__ == '__main__':
 self.font = tk.font.Font(family='Times', size=12, weight=tk.font.BOLD)
 self.label = tk.Label(self, text='city', bg='sky blue', anchor='tk.W', font=self.font )
 ```
-![](/assets/ch2/tkentry.png)
+![](/assets/ch2/tkentry.PNG)
 
 |Parameters|Description|Example|
 |:---|:---|:---|
