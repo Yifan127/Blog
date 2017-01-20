@@ -36,7 +36,6 @@ import idlelib.tooltip
 
 idlelib.tooltip.ToolTip(self.history_button, 'Print history records')
 ```
-
 ![](/assets/ch2/tkbutton.PNG)
 
 
