@@ -81,7 +81,7 @@ The output is
 22   # the age unique to mike
 25   # the age unique to lily
 ```
-#### 3 ways to inheritance
+#### 3 ways of inheritance
 
 ```python
 class Base(object):
