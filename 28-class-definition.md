@@ -81,3 +81,28 @@ The output is
 22   # the age unique to mike
 25   # the age unique to lily
 ```
+#### 3 ways to inheritance
+
+```python
+class Base(object):
+    def __init__(self):
+        print('base class')
+
+class A(Base):
+    def __init__(self):
+        Base.__init__(self)
+
+class B(Base):
+    def __init__(self):
+        super(B, self).__init__()
+
+class C(Base):
+    def __init__(self):
+        super().__init__()
+``` 
+
+**Any differences?**
+
+1. In class A, naming the parent class explicitly takes advtange in multiple inheritance cases.
+2. super().__init__() is new in Python3, you can invoke super() without arguments.
+
