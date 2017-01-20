@@ -38,7 +38,7 @@ For example, when I call Person('Mike', 22), Python creates an object, and passe
 ```    
 #### Instance Object: Attribute references.
 ```python
-    mike.name
+    mike.count
     mike.age
     mike.displayPerson()
 ```
