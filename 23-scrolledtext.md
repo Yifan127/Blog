@@ -27,6 +27,7 @@ if __name__ == '__main__':
     app = App(root)
     app.mainloop()
 ```
+![](/assets/ch2/tkscrolledtext.PNG)
 #### Use Parameter
 
 |Parameters|Description|Example|
