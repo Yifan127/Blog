@@ -79,7 +79,7 @@ def query_weather(self, event):
 |get()|get the text in entry|
 |delete(0, tk.END)|delete the text in entry|
 
-#### Bind an event to a handle
+#### Binding and Event
 
 ```python
 # press Enter, query_weather will be triggered
@@ -88,7 +88,7 @@ self.entry.bind('<Return>', self.query_weather)
 def query_weather(self):
     blah...
 ```
-Test it, got below exception:
+**Exception**:
 
     Exception in Tkinter callback
     Traceback (most recent call last):
