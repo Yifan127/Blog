@@ -21,6 +21,4 @@
     * [2.5 Scrolledtext](23-scrolledtext.md)
     * [2.6 Messagebox](24-messagebox.md)
     * [2.7 Grid](25-grid.md)
-    * [2.8 Tooltip](27-tooltip.md)
-    * [2.9 Fond](26-fond.md)
 

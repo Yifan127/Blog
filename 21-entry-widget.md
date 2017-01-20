@@ -25,9 +25,16 @@ if __name__ == '__main__':
     app = App(root)
     app.mainloop()
 ```
+#### Font
+```python
+import tkinter.font
+
+
+font = tk.font.Font(family='Times', size=12, weight=tk.font.BOLD)
+```
+
 #### Use Parameters
 ```python
-self.font = tk.font.Font(family='Times', size=12, weight=tk.font.BOLD)
 self.label = tk.Label(self, text='city', bg='sky blue', width=10, anchor=tk.W, font=self.font)
 self.label.pack(side=tk.LEFT)
 self.entry = tk.Entry(self, relief=tk.SUNKEN)
