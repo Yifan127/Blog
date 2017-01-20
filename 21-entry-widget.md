@@ -25,7 +25,7 @@ if __name__ == '__main__':
     app = App(root)
     app.mainloop()
 ```
-#### Parameters
+#### Use Parameters
 ```python
 self.font = tk.font.Font(family='Times', size=12, weight=tk.font.BOLD)
 self.label = tk.Label(self, text='city', bg='sky blue', width=10, anchor=tk.W, font=self.font)
@@ -46,11 +46,11 @@ self.entry.pack(side=tk.RIGHT)
 
 #### Constants 
 
-* anchor
+* **anchor**
 
 ![](/assets/ch2/tkanchor.jpg)
 
-* relief
+* **relief**
 
 ![](/assets/ch2/tkrelief.PNG)
 
@@ -59,8 +59,20 @@ self.entry.pack(side=tk.RIGHT)
 ```python
 self.entry.focus_set()
 self.entry.bind('<Return>', self.query_weather)
-city = self.entry.get()
+
+def query_weather(self, event):
+    city = self.entry.get()
+    city = city.strip()
+    self.entry.delete(0, tk.END)
 ```
+|Functions|Description|
+|:---|:---|:---|
+|focus_set()|set the focus to the entry|
+|bind('<Return>', self.query_weather)|press Enter, then self.query_weather is called|
+|get()|get the text in entry|
+|delete(0, tk.END)|delete the text in entry|
+
+
 
 
 
