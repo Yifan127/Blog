@@ -1,8 +1,6 @@
 ### Tkinter
 
-* **Hello World sample**
-
-Read the [hello world program](https://docs.python.org/3/library/tkinter.html#a-simple-hello-world-program) in python doc 
+* Get start from a simple [**Hello World program**](https://docs.python.org/3/library/tkinter.html#a-simple-hello-world-program) in python doc 
 
 * **Draft a UI**
 ![](/assets/ch2/GUI.PNG)
