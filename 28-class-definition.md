@@ -28,14 +28,17 @@ For example, when I call Person('Mike', 22), Python creates an object, and passe
 
 #### Class Object: Attribute references and instantiation.
 * Attribute references
+
 ```python
     Person.count
     Person.displayPerson()
 ```
 * Instantiation
+
 ```python
     mike = Person('Mike', 22)
 ```    
+
 #### Instance Object: Attribute references.
 ```python
     mike.count
@@ -43,3 +46,38 @@ For example, when I call Person('Mike', 22), Python creates an object, and passe
     mike.displayPerson()
 ```
 
+#### Class and Instance Variables
+
+**Class variables** are for attributes and methods shared by all instances.
+
+**Instance variables** are for data unique to each instance.
+
+```python
+class Person(object):
+    '''This is a simple example class'''
+    count = 0
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        Person.count += 1
+
+    def displayPerson(self):
+        print('name: ' + self.name + ' age: ' + str(self.age))
+
+mike = Person('Mike', 22)
+lily = Person('Lily', 25)
+
+print(mike.count)
+print(lily.count)
+
+print(mike.age)
+print(lily.age)
+```
+The output is
+```
+2    # the count shared by all people
+2    # the count shared by all people
+22   # the age unique to mike
+25   # the age unique to lily
+```
