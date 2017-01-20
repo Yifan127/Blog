@@ -12,9 +12,6 @@ class Person(object):
         self.age = age
         Person.count += 1
 
-    def displayCount(self):
-        print(Person.count)
-
     def displayPerson(self):
         print('name: ' + self.name + ' age: ' + str(self.age))
 ```
