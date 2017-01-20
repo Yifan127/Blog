@@ -79,9 +79,30 @@ def query_weather(self, event):
 |get()|get the text in entry|
 |delete(0, tk.END)|delete the text in entry|
 
+#### Bind an event to a handle
 
+```python
+# press Enter, query_weather will be triggered
+self.entry.bind('<Return>', self.query_weather)
 
+def query_weather(self):
+    blah...
+```
+Test it, got below exception:
 
+    Exception in Tkinter callback
+    Traceback (most recent call last):
+      File "C:\Python\Python36-32\lib\tkinter\__init__.py", line 1699, in __call__
+        return self.func(*args)
+    TypeError: query_weather() takes 1 positional argument but 2 were given
+
+**Solustion**
+
+```python
+def query_weather(self, event):
+    blah...
+```
+refer to Python doc [Bindings and Events](https://docs.python.org/3.6/library/tkinter.html?highlight=bind)
 
 
 
