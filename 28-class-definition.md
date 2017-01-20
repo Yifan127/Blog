@@ -1,4 +1,4 @@
-### Class and Object
+### Class
 
 #### Class Definition
 
@@ -26,11 +26,20 @@ When a class defines an \_\_init\_\_, class instatiation automatically invokes \
 
 For example, when I call Person('Mike', 22), Python creates an object, and passes it as the first paremeter to the \_\_init\_\_ method. Any additional parameters like ('Mike', 22) will also get passed as arguments.
 
-#### Attribute references and instantiation.
+#### Class Object: Attribute references and instantiation.
 * Attribute references
-    1. Person.count
-    2. Person.displayPerson
+```python
+    Person.count
+    Person.displayPerson()
+```
 * Instantiation
-
+```python
     mike = Person('Mike', 22)
+```    
+#### Instance Object: Attribute references.
+```python
+    mike.name
+    mike.age
+    mike.displayPerson()
+```
 
