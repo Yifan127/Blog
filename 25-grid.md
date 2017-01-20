@@ -49,6 +49,7 @@ self.scrolledtext.grid(row=1, column=0, columnspan=5)
 ![](assets/ch2/grid1.PNG)
 
 * use **sticky** to change the position of a widget in their cells
+
 ```python
 self.history_button.grid(row=0, column=0, sticky=tk.W+tk.N+tk.S+tk.E)
 self.label.grid(row=0, column=1, sticky=tk.E)
@@ -56,6 +57,19 @@ self.entry.grid(row=0, column=2, sticky=tk.W)
 self.help_button .grid(row=0, column=3, sticky=tk.W+tk.N+tk.S+tk.E)
 self.quit_button .grid(row=0, column=4, sticky=tk.W+tk.N+tk.S+tk.E)
 ```
+![](assets/ch2/grid2.PNG)
+
+* use **padx** and **pady** to set horizontal and vertical padding to place around the widget in a cell
+
+```python
+self.scrolledtext.grid(row=1, column=0, columnspan=5, padx=5, pady=5)
+```
+![](assets/ch2/grid3.PNG)
+
+
+
+
+
 
 
 
