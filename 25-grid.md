@@ -1,6 +1,6 @@
 ### Grid Geometry Manager
 
-#### Use row and column to set the basic position
+* Use **row** and **column** to set the basic position
 
 ```python
 import tkinter as tk
@@ -40,14 +40,14 @@ if __name__ == '__main__':
 ```
 ![](assets/ch2/grid0.PNG)
 
-#### Use columnspan to expand the scrolledtext
+* Use **columnspan** to expand the scrolledtext
 
 ```python
 self.scrolledtext.grid(row=1, column=0, columnspan=5)
 ```
 ![](assets/ch2/grid1.PNG)
 
-#### Use sticky to change the position of a widget in their cells
+* Use **sticky** to change the position of a widget in their cells
 
 ```python
 self.history_button.grid(row=0, column=0, sticky=tk.W+tk.N+tk.S+tk.E)
@@ -58,20 +58,20 @@ self.quit_button .grid(row=0, column=4, sticky=tk.W+tk.N+tk.S+tk.E)
 ```
 ![](assets/ch2/grid2.PNG)
 
-#### Use padx and pady to set horizontal and vertical padding to place around the widget in a cell
+Use **padx** and **pady** to set horizontal and vertical padding to place around the widget in a cell
 
 ```python
 self.scrolledtext.grid(row=1, column=0, columnspan=5, padx=5, pady=5)
 ```
 ![](assets/ch2/grid3.PNG)
 
-#### Set the tk window to a fixed size
+* Set the tk window to a **fixed size**
 
 ```python
 root = tk.Tk()
 root.resizable(width=False, height=False)
 ```
-#### Add title for the tk windows
+* Add **title** for the tk windows
 
 ```python
 root = tk.Tk()
