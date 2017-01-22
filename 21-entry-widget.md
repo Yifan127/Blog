@@ -72,10 +72,11 @@ def query_weather(self, event):
     city = city.strip()
     self.entry.delete(0, tk.END)
 ```
+
 |Functions|Description|
 |:---|:---|:---|
 |focus_set()|set the focus to the entry|
-|bind(\'<Return>\', self.query\_weather)|press Enter, then self.query_weather is called|
+|bind('<Return>', self.query\_weather)|press Enter, then self.query_weather is called|
 |get()|get the text in entry|
 |delete(0, tk.END)|delete the text in entry|
 
