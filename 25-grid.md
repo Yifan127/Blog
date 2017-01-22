@@ -58,7 +58,7 @@ self.quit_button .grid(row=0, column=4, sticky=tk.W+tk.N+tk.S+tk.E)
 ```
 ![](assets/ch2/grid2.PNG)
 
-Use **padx** and **pady** to set horizontal and vertical padding to place around the widget in a cell
+* Use **padx** and **pady** to set horizontal and vertical padding to place around the widget in a cell
 
 ```python
 self.scrolledtext.grid(row=1, column=0, columnspan=5, padx=5, pady=5)
