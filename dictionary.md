@@ -32,11 +32,13 @@
  
  At first, I try this:
  
-         weather_dict.has_key(city)
+     weather_dict.has_key(city)
  But get below exception:
  
-         AttributeError: 'dict' object has no attribute 'has_key'    
+     AttributeError: 'dict' object has no attribute 'has_key'    
  The reason is **dict.has_key()** is removed in Python3, and use **in** operator instead. Like this:
+  
+     city in weather_dict
      
  **Summary: Use "if key in dict:" to check whether the key is exist in a dictionary in Python3.**
  
