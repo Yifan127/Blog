@@ -26,7 +26,7 @@ And test it,
 
 ![](/assets/ch1/help.PNG)
 
-Then new question: how to display the argparse help in multiple lines? 
+Then the new question is how to display the argparse help in multiple lines? 
     
 **Solution: RawTextHelpFormatter**
 ```python
