@@ -25,7 +25,7 @@ if __name__ == '__main__':
     app = App(root)
     app.mainloop()
 ```
-#### Add icon to button
+#### Add icon for button
 ```python
 self.history_icon = tk.PhotoImage(file='history.png')
 self.history_button = tk.Button(self, image=self.history_icon, command=self.print_history, bg='sky blue')
