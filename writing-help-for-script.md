@@ -8,7 +8,7 @@ Executing the script with -h, then a usage is printed to Windows PowerShell.
     
 So, to implement this requirement, I have two sub tasks:
 
-#### Add a description for the script
+#### 1. Add a description for the script
 
 **Solution: import argparse**
 ```python
@@ -46,7 +46,7 @@ args = parser.parse_args()
 **Summary: 
 Import argparse to add help for script. By default, ArgumentParser objects line-wrap the description and epilog texts in command-line help messages.Use the RawTextHelpFormatter class instead to indicate that you already wrapped the lines.**
    
-#### How to execute a command line 
+#### 2. How to execute a command line 
 
 How to execute "py weather_report.py -h" in python script, and get the output?
 
