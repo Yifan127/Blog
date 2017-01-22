@@ -104,5 +104,6 @@ class C(Base):
 **Any differences?**
 
 1. In class A, naming the parent class explicitly takes advtange in multiple inheritance cases.
-2. super().__init__() is new in Python3, you can invoke super() without arguments.
+2. In class B, super(B, self).\_\_init()\_\_ is for Python2
+3. In class C, super().\_\_init\_\_() is new in Python3, you can invoke super() without arguments.
 
