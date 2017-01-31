@@ -24,4 +24,6 @@
 * [Ch3](ch3.md)
 * [3.1 API Providers](3.1-request.md)
 * [3.2 Request](3.2-api-providers.md)
+* [3.3 Input Params Validator](3.3-input-params-validator.md)
+* 3.4 Wind Degree and Direction
 
