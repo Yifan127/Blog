@@ -22,4 +22,6 @@
   * [2.6 Messagebox](24-messagebox.md)
   * [2.7 Grid](25-grid.md)
 * [Ch3](ch3.md)
+* [3.1 API Providers](3.1-request.md)
+* [3.2 Request](3.2-api-providers.md)
 
