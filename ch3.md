@@ -2,7 +2,9 @@
 
 #### Requirements description
 
-Call API to get current weather 
+1. Call API to get current weather 
+2. Get weather of a particular date
+3. Change unit of measure
 
 #### Break down to small tasks
 
