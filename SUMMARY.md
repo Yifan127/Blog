@@ -23,7 +23,8 @@
   * [2.7 Grid](25-grid.md)
 * [Ch3](ch3.md)
 * [3.1 API Providers](3.1-request.md)
-* [3.2 Request](3.2-api-providers.md)
-* [3.3 Input Params Validator](3.3-input-params-validator.md)
-* 3.4 Wind Degree and Direction
+* [3.2 Make a Request](3.2-api-providers.md)
+* [3.3 Parse Response Data](3.3-input-params-validator.md)
+* [3.4 String Validator](3.4-string-validator.md)
+* 3.5 Date Validator
 
