@@ -21,8 +21,8 @@ Call API to get current weather
 3. Make the response data more meaningful 
    3.1 What's UNIX timestamp
    3.2 What does the datetime mean by 'Naive' and 'Aware'?
-   3.3 Convert UNIX timestamp to readable format string
-   3.4 Get local timezone
+   3.3 Get local timezone
+   3.4 Convert UNIX timestamp to readable format string
    3.5 Convert wind degree to readable compass direction
    
 4. Set temperature unit of measure
