@@ -21,10 +21,13 @@ Call API to get current weather
 3. Convert wind degree to readable compass direction
 4. Set temperature unit of measure
 
-   4.1 Add validator for input unit parameter
+   4.1 Add validator for the input unit parameter
 5. Query weather with specific date
 
-   5.1 Add validator for input date parameters
+   5.1 Add validator for the input date parameter
+   5.2 Convert timestamp to readable format string
+   5.3 Convert date string to date object
+   5.4 Use timedelta to compare date
 
 
 
