@@ -53,7 +53,7 @@
 
    5.1 Start from a Boostrap template, modify it
    
-   5.2 USe Boostrap CSS
+   5.2 USe CSS provided by Boostrap
    
 
 
