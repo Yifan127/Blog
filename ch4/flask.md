@@ -105,12 +105,12 @@ flask run --host=0.0.0.0
 ```
 
 * **Debug Mode**
+
 ```
 setx FLASK_DEBUG 1
 flask run
 ```
-
-* **Run as py script**
+* **Run as Python script**
 
 Or add **app.run()**, then just run the py script
 
