@@ -29,4 +29,10 @@
   * [3.5 Date Validator](3.5-date-validator.md)
   * [3.6 OOP](3.6-oop.md)
 * [Ch4](ch4.md)
+  * [4.1 Flask](ch4/flask.md)
+  * 4.2 HTML
+  * 4.3 Jinja Template
+  * 4.4 CSS
+  * 4.5 Boostrap
+  * 4.6 Convert Timezone
 
