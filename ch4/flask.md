@@ -6,7 +6,7 @@ Flask is a micro webdevelopment framework for Python.
 
 The application responsible for sending HTML to browsers is called a **Web Server**.
 
-Browsers send http request (get, post, update, delete) to Web Server.
+Browsers send http request (get, post, put, delete) to Web Server.
 
 And Web Server reply with a http response, usually containing HTML that represents the page requested. 
 
@@ -43,11 +43,11 @@ Create a folder named **templates**, and store all the templates in this folder.
 So, the filesystem looks like this:
 
 ```
-\weather_report_web0.py
-    \templates
-        index.html
-    \static
-        styles.css
+/weather_report_web0.py
+/templates
+    index.html
+/static
+    styles.css
 ```
 
 Then use **render_template()** to render template.
@@ -58,6 +58,8 @@ def index():
     if request.method == 'POST':
         render_template('index.html', weather=result)
 ```
+
+* **The Request Object**
 
 
 
