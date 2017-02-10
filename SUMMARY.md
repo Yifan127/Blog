@@ -33,6 +33,6 @@
   * [4.2 HTML](ch4/4.2-html.md)
   * [4.3 Jinja Template](ch4/4.3-jinja-template.md)
   * [4.4 CSS](ch4/4.4-css.md)
-  * 4.5 Boostrap
+  * [4.5 Boostrap](ch4/4.5-boostrap.md)
   * 4.6 Convert Timezone
 
