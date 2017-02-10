@@ -19,6 +19,8 @@
    
    1.3 The Request Object
    
+   1.4 Render template
+   
 2. HTML
 
    2.1 Form: input text, radio, button
@@ -27,24 +29,32 @@
    
    2.3 Block and Inline elements: h1-h6, p, div; span, img
    
-3. CSS
+3. Jinja Template
 
-   3.1 Syntax
+   3.1 Template Inheritance
    
-   3.2 How to insert 
+   3.2 {{ ... }} for variables ...
    
-   3.3 Font, Color, Padding, Margin, Border
-   
-4. Set temperature unit of measure
+   3.3 {% ... %} for statements: for loop, if else ...
 
-   4.1 Add validator for the input unit parameter
-5. Query weather with specific date
+4. CSS
 
-   5.1 Add validator for the input date parameter
+   4.1 Syntax
    
-   5.2 Convert date string to date object
+   4.2 How to insert 
    
-   5.3 Use timedelta to compare date
+   4.3 Font, Color, Padding, Margin, Border, Form, Table
+   
+5. Improve last week task: openweathermap.py to reuse
+
+   5.1 Call Google timezone API to convert the system's timestamp to the query location timestamp
+   
+6. Boostrap
+
+   5.1 Start from a Boostrap template, modify it
+   
+   5.2 USe Boostrap CSS
+   
 
 
 
