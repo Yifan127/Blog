@@ -32,7 +32,7 @@
   * [4.1 Flask](ch4/flask.md)
   * [4.2 HTML](ch4/4.2-html.md)
   * [4.3 Jinja Template](ch4/4.3-jinja-template.md)
-  * 4.4 CSS
+  * [4.4 CSS](ch4/4.4-css.md)
   * 4.5 Boostrap
   * 4.6 Convert Timezone
 
