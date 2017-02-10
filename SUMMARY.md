@@ -28,4 +28,5 @@
   * [3.4 String Validator](3.4-string-validator.md)
   * [3.5 Date Validator](3.5-date-validator.md)
   * [3.6 OOP](3.6-oop.md)
+* [Ch4](ch4.md)
 
