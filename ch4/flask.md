@@ -105,16 +105,16 @@ flask run --host=0.0.0.0
 ```
 
 * **Debug Mode**
-
+```
+setx FLASK_DEBUG 1
+flask run
+```
 
 * **Run as py script**
 
 Or add **app.run()**, then just run the py script
 
 ```
-from flask import Flask
-from flask import request
-from flask import render_template
 app = Flask(__name__)
 
 if __name__ == "__main__":
@@ -122,7 +122,7 @@ if __name__ == "__main__":
     
 ```
 ```
-py weather\_report\_web0.py
+> py weather-report-web0.py
 Running on http://127.0.0.1:5000/ (Press CTRL+C to quit
 Restarting with stat
 Debugger is active!
