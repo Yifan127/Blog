@@ -68,8 +68,9 @@ def index():
 * **The Request Object**
 
     1. Import request
-    2. Use **method** to get current request method
-    3. Use **form** to access request data
+    2. Use **request.method** to get current request method
+    3. Use **request.form[]** to access request data in **POST** method
+    4. Use **request.args.get()** to access parameters submitted in URL with **GET** method
 
 ```python
 from flask import request
@@ -82,10 +83,18 @@ def index():
         location = request.form['location'].strip()
         unit = request.form['unit']
         if request.form['submit'] == 'Search':
+            result = ...
             return render_template('weather.html', weather=result)
+        elif request.form['submit'] == 'History':
+            result = ...
+            return render_template('history.html', history=result)
     else:
-        render_template('index.html')
-    
+        submit = request.args.get('submit', '')
+        if submit == 'Help':
+            result = ...
+            return render_template('help.html', help=result)
+        else:
+            return render_template('index.html')
 ```
 
 * **Run Flask app**
