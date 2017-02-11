@@ -33,9 +33,9 @@
 
    3.1 Template Inheritance
    
-   3.2 \{\{ ... \}\} for variables ...
-   
-   3.3 \{% ... %\} for statements: for loop, if else ...
+   3.2 Variables 
+
+   3.3 Statements: for loop, if else ...
 
 4. CSS
 
