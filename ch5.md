@@ -1,28 +1,81 @@
-* sqlalchemy.exc.NoReferencedTableError: Foreign key associated with column 'weather_detail.basic_id' could not find table 'weatherbasic' with which to generate a foreign key to target column 'id'
+### Week5 Project practice : Weather Report Web-1
 
-the table name is automatically set for you unless overridden. It’s derived from the class name converted to lowercase and with “CamelCase” converted to “camel_case”.
+#### Requirements description
 
-* foreign key, relationship, weather_basic.detail.append(weather_detail)
+1. Use **Flask-SQLAlchemy** to store data
+2. Add **Update** function, and user can update weather description if the data are wrong
+3. Add **Validator** for the weather description text field
+4. Add **business logic**: if the query time is within 5 minutes to the last query, return the data in database directly, instead of geting new data from OpenWeatherMap
+5. Add **Session** info in server side
+6. Use **Chart** to display temperature
 
-* mode, view, control
 
-* ','.join(map(str,e))
+#### Break down to small tasks
 
-* PickleType
+1. Flask WTForm
 
-```
-class SomeEntity(Base):
-    __tablename__ = 'some_entity'
-    id = Column(Integer, primary_key=True)
-    attributes = Column(PickleType)
+   1.1 Use WTForm to create forms, replace the html one in last week task
+   
+   1.2 Add build-in validators
+   
+   1.3 Add Custom validators
+   
+   1.4 jons.loads
+   
+2. Flask-SQLAlchemy
 
-# Just set the attribute to save it
-s = SomeEntity(attributes={'baked': 'beans', 'spam': 'ham'})
-session.add(s)
-session.commit()
+   2.1 Define table
+   
+   2.2 Define columns: Integer, String, Boolean, Datetime, PickleType
+   
+   2.3 Constriction: unique, nullable, default
+   
+   2.4 Foreign Key & One to One Relationship
+   
+   2.5 Query, filter, filter_by, distinct
+   
+   2.6 Insert
+ 
+   2.7 Update
+   
+3. Package and Blueprint
 
-# If mutable=True on PickleType (the default) SQLAlchemy automatically
-# notices modifications.
-s.attributes['parrot'] = 'dead'
-session.commit()
-```
+   3.1 The \_\_init\_\_.py
+   
+   3.2 Blueprint 
+
+   3.3 Flask configuration
+
+4. Jinja
+
+   4.1 Macro
+   
+   4.2 Filter
+   
+5. Flask URL and Redirection
+
+   5.1 Redirection
+   
+   5.2 Url_for() with parameter in Blueprint
+   
+6. Flask Session
+
+   6.1 Session and cookie
+   
+   6.2 Store session in server side
+   
+7. Google Chart API
+   
+   7.1 Line Chart
+   
+   7.2 Add annotation
+   
+   7.3 Chart options
+
+  
+   
+
+
+
+
+
