@@ -36,12 +36,14 @@
   * [4.5 Boostrap](ch4/4.5-boostrap.md)
   * [4.6 Convert Timezone](ch4/4.6-convert-timezone.md)
 * [Ch5](ch5.md)
-  * 5.1 Flask WTForm
+  * [5.1 Flask WTForms](ch5/5.1-flask-wtform.md)
   * [5.2 Flask SQLAlchemy](ch5/5.2-flask-sqlalchemy.md)
-  * 5.3 Package and Blueprint
+  * [5.3 Package and Blueprint](ch5/5.3-package-and-blueprint.md)
   * [5.4 Jinjia Macro and Filter](ch5/5.4-jinjia.md)
   * [5.5 Flask URL / Redirection](ch5/5.5-flask-redirect-and-url_for.md)
-  * 5.6 Flask Session
+  * [5.6 Flask Session](ch5/5.6-flask-session.md)
   * [5.7 Google Chart API](ch5/5.6-google-chart.md)
-  * 5.8 Flask Logging
+  * [5.8 Flask Logging](ch5/5.8-flask-logging.md)
+* Ch6
+  * 6.1 Deploy on Heroku
 
