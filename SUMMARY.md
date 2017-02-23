@@ -15,7 +15,7 @@
   * [1.7 Build-in Function](17-build-in-function.md)
 * [Ch2](ch2.md)
   * [2.1 Tkinter Introduction](ch2/2.1-tkinter-introduction.md)
-  * [2.2 Class Definition](28-class-definition.md)
+  * [2.2 Class Definition](ch2/2.2-class-definition.md)
   * [2.3 Entry Widget](21-entry-widget.md)
   * [2.4 Button Widget](22-button-widget.md)
   * [2.5 Scrolledtext](23-scrolledtext.md)
