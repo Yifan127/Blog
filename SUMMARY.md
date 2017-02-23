@@ -28,7 +28,7 @@
   * [3.4 String Validator](ch3/3.4-string-validator.md)
   * [3.5 Date Validator](ch3/3.5-date-validator.md)
   * [3.6 OOP](ch3/3.6-oop.md)
-* [Ch4](ch4.md)
+* [Ch4](ch4/ch4.md)
   * [4.1 Flask](ch4/flask.md)
   * [4.2 HTML](ch4/4.2-html.md)
   * [4.3 Jinja Template](ch4/4.3-jinja-template.md)
