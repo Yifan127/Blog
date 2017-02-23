@@ -44,6 +44,6 @@
   * [5.6 Flask Session](ch5/5.6-flask-session.md)
   * [5.7 Flask Logging](ch5/5.7-flask-logging.md)
   * [5.8 Google Chart API](ch5/5.8-google-chart.md)
-* [Ch6](ch6.md)
+* [Ch6](ch6/ch6.md)
   * 6.1 Deploy on Heroku
 
