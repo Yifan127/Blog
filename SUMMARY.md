@@ -6,7 +6,7 @@
   * [0.2 Git command line](git-command-line.md)
   * [0.3 Formatting](formatting.md)
 * [Ch1](ch1-project-practice.md)
-  * [1.1 Reading file](reading-unicode-file.md)
+  * [1.1 Reading file](ch1/1.1-reading-file.md)
   * [1.2 Chinese characters decoding](unicode-decoding.md)
   * [1.3 Dictionary](dictionary.md)
   * [1.4 Exit](exit.md)
