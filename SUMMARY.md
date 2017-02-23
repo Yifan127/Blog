@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Ch0](ch0.md)
-  * [0.1 Python2 vs. Python3](python2-vs-python3.md)
+  * [0.1 Python2 vs. Python3](ch0/0.0-python2-vs-python3.md)
   * [0.2 Git command line](git-command-line.md)
   * [0.3 Formatting](formatting.md)
 * [Ch1](ch1-project-practice.md)
