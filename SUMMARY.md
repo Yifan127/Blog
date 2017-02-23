@@ -35,7 +35,7 @@
   * [4.4 CSS](ch4/4.4-css.md)
   * [4.5 Boostrap](ch4/4.5-boostrap.md)
   * [4.6 Convert Timezone](ch4/4.6-convert-timezone.md)
-* [Ch5](ch5.md)
+* [Ch5](ch5/ch5.md)
   * [5.1 Flask WTForms](ch5/5.1-flask-wtform.md)
   * [5.2 Flask SQLAlchemy](ch5/5.2-flask-sqlalchemy.md)
   * [5.3 Package and Blueprint](ch5/5.3-package-and-blueprint.md)
