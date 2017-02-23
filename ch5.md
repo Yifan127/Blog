@@ -20,8 +20,6 @@
    
    1.3 Add Custom validators
    
-   1.4 jons.loads
-   
 2. Flask-SQLAlchemy
 
    2.1 Define table
@@ -37,6 +35,8 @@
    2.6 Insert
  
    2.7 Update
+   
+   2.8 Import json file to database
    
 3. Package and Blueprint
 
