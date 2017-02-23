@@ -19,7 +19,7 @@
   * [2.3 Entry Widget](ch2/2.3-entry-widget.md)
   * [2.4 Button Widget](ch2/2.4-button-widget.md)
   * [2.5 Scrolledtext](ch2/2.5-scrolledtext.md)
-  * [2.6 Messagebox](24-messagebox.md)
+  * [2.6 Messagebox](ch2/2.6-messagebox.md)
   * [2.7 Grid](25-grid.md)
 * [Ch3](ch3.md)
   * [3.1 API Providers](ch3/3.1-api-providers.md)
