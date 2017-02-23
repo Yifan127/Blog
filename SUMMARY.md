@@ -20,7 +20,7 @@
   * [2.4 Button Widget](ch2/2.4-button-widget.md)
   * [2.5 Scrolledtext](ch2/2.5-scrolledtext.md)
   * [2.6 Messagebox](ch2/2.6-messagebox.md)
-  * [2.7 Grid](25-grid.md)
+  * [2.7 Grid](ch2/2.7-grid.md)
 * [Ch3](ch3.md)
   * [3.1 API Providers](ch3/3.1-api-providers.md)
   * [3.2 Make a Request](ch3/3.2-make-a-request.md)
