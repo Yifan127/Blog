@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Ch0](ch0.md)
+* [Ch0](ch0/ch0.md)
   * [0.1 Python2 vs. Python3](ch0/0.0-python2-vs-python3.md)
   * [0.2 Git command line](ch0/0.1-git-command-line.md)
   * [0.3 Formatting](ch0/0.2-formatting.md)
