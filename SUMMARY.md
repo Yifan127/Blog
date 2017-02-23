@@ -5,7 +5,7 @@
   * [0.1 Python2 vs. Python3](ch0/0.0-python2-vs-python3.md)
   * [0.2 Git command line](ch0/0.1-git-command-line.md)
   * [0.3 Formatting](ch0/0.2-formatting.md)
-* [Ch1](ch1-project-practice.md)
+* [Ch1](ch1/ch1.md)
   * [1.1 Reading file](ch1/1.1-reading-file.md)
   * [1.2 Chinese characters decoding](ch1/1.2-chinese-characters-decoding.md)
   * [1.3 Dictionary](ch1/1.3-dictionary.md)
