@@ -8,7 +8,7 @@
 * [Ch1](ch1-project-practice.md)
   * [1.1 Reading file](ch1/1.1-reading-file.md)
   * [1.2 Chinese characters decoding](ch1/1.2-chinese-characters-decoding.md)
-  * [1.3 Dictionary](dictionary.md)
+  * [1.3 Dictionary](ch1/1.3-dictionary.md)
   * [1.4 Exit](exit.md)
   * [1.5 \_\_name\_\_](name.md)
   * [1.6 Writing help for a script](writing-help-for-script.md)
