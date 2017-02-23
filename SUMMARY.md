@@ -10,7 +10,7 @@
   * [1.2 Chinese characters decoding](ch1/1.2-chinese-characters-decoding.md)
   * [1.3 Dictionary](ch1/1.3-dictionary.md)
   * [1.4 Exit](ch1/1.4-exit.md)
-  * [1.5 \_\_name\_\_](name.md)
+  * [1.5 \_\_name\_\_](ch1/1.5-name.md)
   * [1.6 Writing help for a script](writing-help-for-script.md)
   * [1.7 Build-in Function](17-build-in-function.md)
 * [Ch2](ch2.md)
