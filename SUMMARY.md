@@ -40,7 +40,7 @@
   * [5.2 Flask SQLAlchemy](ch5/5.2-flask-sqlalchemy.md)
   * [5.3 Package and Blueprint](ch5/5.3-package-and-blueprint.md)
   * [5.4 Flask URL / Redirection](ch5/5.4-flask-redirect-and-url_for.md)
-  * [5.5 Jinjia Macro and Filter](ch5/5.5-jinjia.md)
+  * [5.5 Jinjia Macro and Filter](ch5/5.5-jinjia-macro-and-filter.md)
   * [5.6 Flask Session](ch5/5.6-flask-session.md)
   * [5.7 Flask Logging](ch5/5.7-flask-logging.md)
   * [5.8 Google Chart API](ch5/5.8-google-chart.md)
