@@ -12,7 +12,7 @@
   * [1.4 Exit](ch1/1.4-exit.md)
   * [1.5 \_\_name\_\_](ch1/1.5-name.md)
   * [1.6 Writing help for a script](ch1/1.6-writing-help-for-script.md)
-  * [1.7 Build-in Function](17-build-in-function.md)
+  * [1.7 Build-in Function](ch1/1.7-build-in-function.md)
 * [Ch2](ch2.md)
   * [2.1 Tkinter Introduction](ch2/2.1-tkinter-introduction.md)
   * [2.2 Class Definition](ch2/2.2-class-definition.md)
