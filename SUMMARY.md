@@ -47,4 +47,5 @@
   * [5.9 Flask Message Flash](ch5/5.9-flask-message-flash.md)
 * [Ch6](ch6/ch6.md)
   * [6.1 Deploy to Heroku](ch6/ch6/6.1-deploy-on-heroku.md)
+  * [6.2 Flask Restful API](ch6/ch6/6.2-flask-restful-api.md)
 
