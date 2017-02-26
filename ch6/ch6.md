@@ -2,77 +2,34 @@
 
 #### Requirements description
 
-1. Deploy **Flask-SQLAlchemy** to store data
-2. Add **Update** function, and user can update weather description if the data are wrong
-3. Add **Validator** for the weather description text field
-4. Add **business logic**: if the query time is within 5 minutes to the last query, return the data in database directly, instead of geting new data from OpenWeatherMap
-5. Add **Session** info in server side
-6. Use **Chart** to display temperature
-
+1. Deploy this Flask app to **Heroku**
+2. Provide **Restful API**
 
 #### Break down to small tasks
 
-1. Flask WTForm
+1. Heroku
 
-   1.1 Use WTForm to create forms, replace the html one in last week task
+   1.1 Define a Procfile
    
-   1.2 Add build-in validators
+   1.2 Specify Python version
    
-   1.3 Add Custom validators
+   1.3 Declare dependencies
    
-2. Flask-SQLAlchemy
+   1.4 Run locally
+   
+   1.5 Deploy app to Heroku
+   
+   1.6 Check log
+   
+2. Flask Restful API
 
-   2.1 Define table
+   2.1 marshal_with() decorator
    
-   2.2 Define columns: Integer, String, Boolean, Datetime, PickleType
+   2.2 List Field
    
-   2.3 Constriction: unique, nullable, default
+   2.3 Nested Field
    
-   2.4 Foreign Key & One to One Relationship
-   
-   2.5 Query, filter, filter_by, distinct
-   
-   2.6 Insert
- 
-   2.7 Update
-   
-   2.8 Import json file to database
-   
-3. Package and Blueprint
-
-   3.1 The \_\_init\_\_.py
-   
-   3.2 Blueprint 
-
-   3.3 Flask configuration
-
-4. Jinja
-
-   4.1 Macro
-   
-   4.2 Filter
-   
-5. Flask URL and Redirection
-
-   5.1 Redirection
-   
-   5.2 Url_for() with parameter in Blueprint
-   
-6. Flask Session
-
-   6.1 Session and cookie
-   
-   6.2 Store session in server side
-   
-7. Google Chart API
-   
-   7.1 Line Chart
-   
-   7.2 Add annotation
-   
-   7.3 Chart options
-
-  
+   2.4 representation() decorator
    
 
 
