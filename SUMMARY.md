@@ -46,5 +46,5 @@
   * [5.8 Google Chart API](ch5/5.8-google-chart.md)
   * [5.9 Flask Message Flash](ch5/5.9-flask-message-flash.md)
 * [Ch6](ch6/ch6.md)
-  * 6.1 Deploy on Heroku
+  * [6.1 Deploy to Heroku](ch6/ch6/6.1-deploy-on-heroku.md)
 
